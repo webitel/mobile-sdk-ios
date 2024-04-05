@@ -2,17 +2,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "mobile-ios-sdk",
+    name: "webitel-sdk-ios",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "mobile-ios-sdk",
-            targets: ["mobile-ios-sdk"]),
+            name: "WebitelSdkIos",
+            targets: ["WebitelSdkIos"]),
     ],
     targets: [
         .binaryTarget(
-            name: "mobile-ios-sdk",
-            path: "./Sources/mobile-ios-sdk.xcframework"
+            name: "WebitelSdkIos",
+            path: "./Sources/WebitelSdkIos.xcframework"
         )
     ]
 )
