@@ -1,0 +1,4 @@
+framework module WebitelSdkIos {
+  header "WebitelSdkIos-Swift.h"
+  requires objc
+}

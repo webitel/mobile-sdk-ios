@@ -1,4 +1,0 @@
-framework module mobile_ios_sdk {
-  header "mobile_ios_sdk-Swift.h"
-  requires objc
-}
