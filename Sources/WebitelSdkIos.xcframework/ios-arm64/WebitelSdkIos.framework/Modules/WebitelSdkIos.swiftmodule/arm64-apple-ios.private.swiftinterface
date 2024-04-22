@@ -13,7 +13,6 @@ extension UIKit.UIDevice {
 }
 public protocol ChatClient {
   func getServiceDialog(completion: @escaping (Swift.Result<any WebitelSdkIos.Dialog, Foundation.NSError>) -> Swift.Void)
-  func getDialogs(completion: @escaping (Swift.Result<[any WebitelSdkIos.Dialog], Foundation.NSError>) -> Swift.Void)
 }
 public struct RequestParams {
 }
@@ -29,6 +28,24 @@ public protocol Dialog {
   func removeListener(listener: any WebitelSdkIos.DialogListener)
   func removeAllListeners()
 }
+public enum LogLevel : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case trace
+  case debug
+  case info
+  case notice
+  case warning
+  case error
+  case critical
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [WebitelSdkIos.LogLevel]
+  public typealias RawValue = Swift.String
+  public static var allCases: [WebitelSdkIos.LogLevel] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class RequestParamsBuilder {
   public func setLimit(_ limit: Swift.Int32) -> Self
   public func setOffset(_ offset: Swift.Int64) -> Self
@@ -37,6 +54,7 @@ public protocol Dialog {
 }
 public struct Message : Swift.Hashable {
   public let id: Swift.Int64
+  public let sendId: Swift.String
   public let text: Swift.String
   public let from: WebitelSdkIos.Member
   public let isIncoming: Swift.Bool
@@ -46,6 +64,7 @@ public struct Message : Swift.Hashable {
   public class options {
     public init()
     public func withText(_ text: Swift.String) -> Self
+    public func sendId(_ id: Swift.String) -> Self
     @objc deinit
   }
   public func hash(into hasher: inout Swift.Hasher)
@@ -69,14 +88,15 @@ public protocol PortalClient {
   func userLogin(user: WebitelSdkIos.User, completion: @escaping (Swift.Result<WebitelSdkIos.UserSession, Foundation.NSError>) -> Swift.Void)
   func userLogout(completion: @escaping (Swift.Result<Swift.Bool, Foundation.NSError>) -> Swift.Void)
   func getUserSession(completion: @escaping (Swift.Result<WebitelSdkIos.UserSession, Foundation.NSError>) -> Swift.Void)
-  func setAccessToken(token: Swift.String, completion: @escaping () -> Swift.Void)
   func registerFCMToken(token: Swift.String, completion: @escaping (Swift.Result<Swift.Bool, Foundation.NSError>) -> Swift.Void)
+  func setAccessToken(token: Swift.String)
 }
 public class PortalClientBuilder {
   public init(address: Swift.String, token: Swift.String)
   public func setName(_ value: Swift.String) -> Self
   public func setVersion(_ value: Swift.String) -> Self
   public func setDeviceId(_ value: Swift.String) -> Self
+  public func logLevel(_ value: WebitelSdkIos.LogLevel) -> Self
   public func build() throws -> any WebitelSdkIos.PortalClient
   @objc deinit
 }
@@ -104,3 +124,6 @@ public protocol VoiceClient {
 public protocol DialogListener : AnyObject {
   func onNewMessage(_ message: WebitelSdkIos.Message)
 }
+extension WebitelSdkIos.LogLevel : Swift.Equatable {}
+extension WebitelSdkIos.LogLevel : Swift.Hashable {}
+extension WebitelSdkIos.LogLevel : Swift.RawRepresentable {}
