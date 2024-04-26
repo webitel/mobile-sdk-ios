@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 import Swift
+import SwiftProtobuf
 import UIKit
 import _Concurrency
 import _StringProcessing
@@ -46,7 +47,8 @@ public enum LogLevel : Swift.String, Swift.Codable, Swift.CaseIterable {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class RequestParamsBuilder {
+public class RequestParamsBuilder {
+  public init()
   public func setLimit(_ limit: Swift.Int32) -> Self
   public func setOffset(_ offset: Swift.Int64) -> Self
   public func build() -> WebitelSdkIos.RequestParams
@@ -88,7 +90,7 @@ public protocol PortalClient {
   func userLogin(user: WebitelSdkIos.User, completion: @escaping (Swift.Result<WebitelSdkIos.UserSession, Foundation.NSError>) -> Swift.Void)
   func userLogout(completion: @escaping (Swift.Result<Swift.Bool, Foundation.NSError>) -> Swift.Void)
   func getUserSession(completion: @escaping (Swift.Result<WebitelSdkIos.UserSession, Foundation.NSError>) -> Swift.Void)
-  func registerFCMToken(token: Swift.String, completion: @escaping (Swift.Result<Swift.Bool, Foundation.NSError>) -> Swift.Void)
+  func registerDevice(pushToken: Swift.String, completion: @escaping (Swift.Result<Swift.Void, Foundation.NSError>) -> Swift.Void)
   func setAccessToken(token: Swift.String)
 }
 public class PortalClientBuilder {
