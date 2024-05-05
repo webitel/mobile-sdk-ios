@@ -15,6 +15,9 @@ public protocol ChatClient {
 }
 public struct RequestParams {
 }
+public struct MediaUploadListener {
+  public init(onStarted: @escaping () -> Swift.Void, onProgress: @escaping (Swift.Int64) -> Swift.Void, onCompleted: @escaping (Swift.String) -> Swift.Void, onFailed: @escaping (Foundation.NSError) -> Swift.Void)
+}
 public protocol Dialog {
   var id: Swift.String { get }
   var title: Swift.String { get }
@@ -23,9 +26,13 @@ public protocol Dialog {
   func getHistory(completion: @escaping (Swift.Result<[WebitelSdkIos.Message], Foundation.NSError>) -> Swift.Void)
   func getUpdates(params: WebitelSdkIos.RequestParams, completion: @escaping (Swift.Result<[WebitelSdkIos.Message], Foundation.NSError>) -> Swift.Void)
   func getUpdates(completion: @escaping (Swift.Result<[WebitelSdkIos.Message], Foundation.NSError>) -> Swift.Void)
+  func downloadFile(fileId: Swift.String, observer: WebitelSdkIos.StreamObserver)
   func addListener(listener: any WebitelSdkIos.DialogListener)
   func removeListener(listener: any WebitelSdkIos.DialogListener)
   func removeAllListeners()
+}
+public struct StreamObserver {
+  public init(onNext: @escaping (Foundation.Data) -> Swift.Void, onCompleted: @escaping () -> Swift.Void, onFailed: @escaping (Foundation.NSError) -> Swift.Void)
 }
 public enum LogLevel : Swift.String, Swift.Codable, Swift.CaseIterable {
   case trace
@@ -64,6 +71,7 @@ public struct Message : Swift.Hashable {
   public class options {
     public init()
     public func withText(_ text: Swift.String) -> Self
+    public func withFile(inputStream: Foundation.InputStream, contentType: Swift.String, filename: Swift.String, listener: WebitelSdkIos.MediaUploadListener) -> Self
     public func sendId(_ id: Swift.String) -> Self
     @objc deinit
   }
