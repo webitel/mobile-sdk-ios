@@ -42,6 +42,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "ChatClient",
         "printedName": "ChatClient",
@@ -288,6 +298,312 @@
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectState",
+        "printedName": "ConnectState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "CONNECTING",
+            "printedName": "CONNECTING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebitelSdkIos.ConnectState.Type) -> WebitelSdkIos.ConnectState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectState",
+                    "printedName": "WebitelSdkIos.ConnectState",
+                    "usr": "s:13WebitelSdkIos12ConnectStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WebitelSdkIos.ConnectState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectState",
+                        "printedName": "WebitelSdkIos.ConnectState",
+                        "usr": "s:13WebitelSdkIos12ConnectStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WebitelSdkIos12ConnectStateO10CONNECTINGyA2CmF",
+            "mangledName": "$s13WebitelSdkIos12ConnectStateO10CONNECTINGyA2CmF",
+            "moduleName": "WebitelSdkIos"
+          },
+          {
+            "kind": "Var",
+            "name": "READY",
+            "printedName": "READY",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebitelSdkIos.ConnectState.Type) -> WebitelSdkIos.ConnectState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectState",
+                    "printedName": "WebitelSdkIos.ConnectState",
+                    "usr": "s:13WebitelSdkIos12ConnectStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WebitelSdkIos.ConnectState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectState",
+                        "printedName": "WebitelSdkIos.ConnectState",
+                        "usr": "s:13WebitelSdkIos12ConnectStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WebitelSdkIos12ConnectStateO5READYyA2CmF",
+            "mangledName": "$s13WebitelSdkIos12ConnectStateO5READYyA2CmF",
+            "moduleName": "WebitelSdkIos"
+          },
+          {
+            "kind": "Var",
+            "name": "DISCONNECTED",
+            "printedName": "DISCONNECTED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebitelSdkIos.ConnectState.Type) -> WebitelSdkIos.ConnectState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectState",
+                    "printedName": "WebitelSdkIos.ConnectState",
+                    "usr": "s:13WebitelSdkIos12ConnectStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WebitelSdkIos.ConnectState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectState",
+                        "printedName": "WebitelSdkIos.ConnectState",
+                        "usr": "s:13WebitelSdkIos12ConnectStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WebitelSdkIos12ConnectStateO12DISCONNECTEDyA2CmF",
+            "mangledName": "$s13WebitelSdkIos12ConnectStateO12DISCONNECTEDyA2CmF",
+            "moduleName": "WebitelSdkIos"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectState",
+                "printedName": "WebitelSdkIos.ConnectState",
+                "usr": "s:13WebitelSdkIos12ConnectStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectState",
+                "printedName": "WebitelSdkIos.ConnectState",
+                "usr": "s:13WebitelSdkIos12ConnectStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos12ConnectStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13WebitelSdkIos12ConnectStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "WebitelSdkIos",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos12ConnectStateO9hashValueSivp",
+            "mangledName": "$s13WebitelSdkIos12ConnectStateO9hashValueSivp",
+            "moduleName": "WebitelSdkIos",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos12ConnectStateO9hashValueSivg",
+                "mangledName": "$s13WebitelSdkIos12ConnectStateO9hashValueSivg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos12ConnectStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13WebitelSdkIos12ConnectStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "WebitelSdkIos",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13WebitelSdkIos12ConnectStateO",
+        "mangledName": "$s13WebitelSdkIos12ConnectStateO",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectListener",
+        "printedName": "ConnectListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onStateChanged",
+            "printedName": "onStateChanged(from:to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectState",
+                "printedName": "WebitelSdkIos.ConnectState",
+                "usr": "s:13WebitelSdkIos12ConnectStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectState",
+                "printedName": "WebitelSdkIos.ConnectState",
+                "usr": "s:13WebitelSdkIos12ConnectStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos15ConnectListenerP14onStateChanged4from2toyAA0dG0O_AHtF",
+            "mangledName": "$s13WebitelSdkIos15ConnectListenerP14onStateChanged4from2toyAA0dG0O_AHtF",
+            "moduleName": "WebitelSdkIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.ConnectListener>",
+            "sugared_genericSig": "<Self where Self : WebitelSdkIos.ConnectListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13WebitelSdkIos15ConnectListenerP",
+        "mangledName": "$s13WebitelSdkIos15ConnectListenerP",
+        "moduleName": "WebitelSdkIos",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -3464,6 +3780,124 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConnectState",
+            "printedName": "getConnectState()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectState",
+                "printedName": "WebitelSdkIos.ConnectState",
+                "usr": "s:13WebitelSdkIos12ConnectStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos12PortalClientP15getConnectStateAA0gH0OyF",
+            "mangledName": "$s13WebitelSdkIos12PortalClientP15getConnectStateAA0gH0OyF",
+            "moduleName": "WebitelSdkIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.PortalClient>",
+            "sugared_genericSig": "<Self where Self : WebitelSdkIos.PortalClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addConnectListener",
+            "printedName": "addConnectListener(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectListener",
+                "printedName": "any WebitelSdkIos.ConnectListener",
+                "usr": "s:13WebitelSdkIos15ConnectListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos12PortalClientP18addConnectListener8listeneryAA0gH0_p_tF",
+            "mangledName": "$s13WebitelSdkIos12PortalClientP18addConnectListener8listeneryAA0gH0_p_tF",
+            "moduleName": "WebitelSdkIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.PortalClient>",
+            "sugared_genericSig": "<Self where Self : WebitelSdkIos.PortalClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeConnectListener",
+            "printedName": "removeConnectListener(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectListener",
+                "printedName": "any WebitelSdkIos.ConnectListener",
+                "usr": "s:13WebitelSdkIos15ConnectListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos12PortalClientP21removeConnectListener8listeneryAA0gH0_p_tF",
+            "mangledName": "$s13WebitelSdkIos12PortalClientP21removeConnectListener8listeneryAA0gH0_p_tF",
+            "moduleName": "WebitelSdkIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.PortalClient>",
+            "sugared_genericSig": "<Self where Self : WebitelSdkIos.PortalClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openConnect",
+            "printedName": "openConnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos12PortalClientP11openConnectyyF",
+            "mangledName": "$s13WebitelSdkIos12PortalClientP11openConnectyyF",
+            "moduleName": "WebitelSdkIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.PortalClient>",
+            "sugared_genericSig": "<Self where Self : WebitelSdkIos.PortalClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeConnect",
+            "printedName": "closeConnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos12PortalClientP12closeConnectyyF",
+            "mangledName": "$s13WebitelSdkIos12PortalClientP12closeConnectyyF",
+            "moduleName": "WebitelSdkIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.PortalClient>",
+            "sugared_genericSig": "<Self where Self : WebitelSdkIos.PortalClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -5935,6 +6369,13 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/grpc\/ConnectionListeners.swift",
+      "kind": "Array",
+      "offset": 208,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/repository\/DeviceStorage.swift",
       "kind": "StringLiteral",
       "offset": 165,
@@ -5951,7 +6392,7 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/WebitelChat.swift",
       "kind": "IntegerLiteral",
-      "offset": 20498,
+      "offset": 20507,
       "length": 1,
       "value": "1"
     },
@@ -10263,14 +10704,14 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/grpc\/GrpcClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1227,
+      "offset": 1343,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/grpc\/GrpcClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1529,
+      "offset": 1645,
       "length": 1,
       "value": "1"
     },

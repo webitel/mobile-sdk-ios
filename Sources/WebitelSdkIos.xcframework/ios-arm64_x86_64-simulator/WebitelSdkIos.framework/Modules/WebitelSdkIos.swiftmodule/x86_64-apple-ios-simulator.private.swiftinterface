@@ -15,6 +15,17 @@ public protocol ChatClient {
 }
 public struct RequestParams {
 }
+public enum ConnectState {
+  case CONNECTING, READY, DISCONNECTED
+  public static func == (a: WebitelSdkIos.ConnectState, b: WebitelSdkIos.ConnectState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol ConnectListener : AnyObject {
+  func onStateChanged(from: WebitelSdkIos.ConnectState, to: WebitelSdkIos.ConnectState)
+}
 public struct MediaUploadListener {
   public init(onStarted: @escaping () -> Swift.Void, onProgress: @escaping (Swift.Int64) -> Swift.Void, onCompleted: @escaping (Swift.String) -> Swift.Void, onFailed: @escaping (Foundation.NSError) -> Swift.Void)
 }
@@ -98,6 +109,11 @@ public protocol PortalClient {
   func getUserSession(completion: @escaping (Swift.Result<WebitelSdkIos.UserSession, Foundation.NSError>) -> Swift.Void)
   func registerDevice(pushToken: Swift.String, completion: @escaping (Swift.Result<Swift.Void, Foundation.NSError>) -> Swift.Void)
   func setAccessToken(token: Swift.String)
+  func getConnectState() -> WebitelSdkIos.ConnectState
+  func addConnectListener(listener: any WebitelSdkIos.ConnectListener)
+  func removeConnectListener(listener: any WebitelSdkIos.ConnectListener)
+  func openConnect()
+  func closeConnect()
 }
 public class PortalClientBuilder {
   public init(address: Swift.String, token: Swift.String)
@@ -132,6 +148,8 @@ public protocol VoiceClient {
 public protocol DialogListener : AnyObject {
   func onNewMessage(_ message: WebitelSdkIos.Message)
 }
+extension WebitelSdkIos.ConnectState : Swift.Equatable {}
+extension WebitelSdkIos.ConnectState : Swift.Hashable {}
 extension WebitelSdkIos.LogLevel : Swift.Equatable {}
 extension WebitelSdkIos.LogLevel : Swift.Hashable {}
 extension WebitelSdkIos.LogLevel : Swift.RawRepresentable {}
