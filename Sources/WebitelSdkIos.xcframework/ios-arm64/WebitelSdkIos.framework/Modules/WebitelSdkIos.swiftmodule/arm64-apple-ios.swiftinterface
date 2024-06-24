@@ -23,6 +23,41 @@ public enum PushTokenType {
     get
   }
 }
+public struct ReplyMarkup : Swift.Hashable {
+  public let noInput: Swift.Bool
+  public let rows: [WebitelSdkIos.ButtonRow]
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: WebitelSdkIos.ReplyMarkup, b: WebitelSdkIos.ReplyMarkup) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct ButtonRow : Swift.Hashable {
+  public let buttons: [WebitelSdkIos.Button]
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: WebitelSdkIos.ButtonRow, b: WebitelSdkIos.ButtonRow) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Button : Swift.Hashable {
+  public let text: Swift.String
+  public let type: WebitelSdkIos.ButtonType
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: WebitelSdkIos.Button, b: WebitelSdkIos.Button) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ButtonType : Swift.Hashable {
+  case Url(url: Swift.String)
+  case Postback(code: Swift.String)
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: WebitelSdkIos.ButtonType, b: WebitelSdkIos.ButtonType) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public enum ConnectState {
   case CONNECTING, READY, DISCONNECTED
   public static func == (a: WebitelSdkIos.ConnectState, b: WebitelSdkIos.ConnectState) -> Swift.Bool
@@ -88,6 +123,8 @@ public struct Message : Swift.Hashable {
   public let date: Swift.Int64
   public let dialogId: Swift.String
   public let file: WebitelSdkIos.File?
+  public let postback: WebitelSdkIos.Postback?
+  public let replyMarkup: WebitelSdkIos.ReplyMarkup?
   public class options {
     public init()
     public func withText(_ text: Swift.String) -> Self

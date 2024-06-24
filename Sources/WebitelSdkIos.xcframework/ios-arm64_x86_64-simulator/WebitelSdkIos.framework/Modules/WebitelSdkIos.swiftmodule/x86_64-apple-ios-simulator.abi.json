@@ -511,6 +511,890 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "ReplyMarkup",
+        "printedName": "ReplyMarkup",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noInput",
+            "printedName": "noInput",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos11ReplyMarkupV7noInputSbvp",
+            "mangledName": "$s13WebitelSdkIos11ReplyMarkupV7noInputSbvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos11ReplyMarkupV7noInputSbvg",
+                "mangledName": "$s13WebitelSdkIos11ReplyMarkupV7noInputSbvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rows",
+            "printedName": "rows",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[WebitelSdkIos.ButtonRow]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ButtonRow",
+                    "printedName": "WebitelSdkIos.ButtonRow",
+                    "usr": "s:13WebitelSdkIos9ButtonRowV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos11ReplyMarkupV4rowsSayAA9ButtonRowVGvp",
+            "mangledName": "$s13WebitelSdkIos11ReplyMarkupV4rowsSayAA9ButtonRowVGvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[WebitelSdkIos.ButtonRow]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ButtonRow",
+                        "printedName": "WebitelSdkIos.ButtonRow",
+                        "usr": "s:13WebitelSdkIos9ButtonRowV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos11ReplyMarkupV4rowsSayAA9ButtonRowVGvg",
+                "mangledName": "$s13WebitelSdkIos11ReplyMarkupV4rowsSayAA9ButtonRowVGvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos11ReplyMarkupV9hashValueSivp",
+            "mangledName": "$s13WebitelSdkIos11ReplyMarkupV9hashValueSivp",
+            "moduleName": "WebitelSdkIos",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos11ReplyMarkupV9hashValueSivg",
+                "mangledName": "$s13WebitelSdkIos11ReplyMarkupV9hashValueSivg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos11ReplyMarkupV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13WebitelSdkIos11ReplyMarkupV4hash4intoys6HasherVz_tF",
+            "moduleName": "WebitelSdkIos",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReplyMarkup",
+                "printedName": "WebitelSdkIos.ReplyMarkup",
+                "usr": "s:13WebitelSdkIos11ReplyMarkupV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReplyMarkup",
+                "printedName": "WebitelSdkIos.ReplyMarkup",
+                "usr": "s:13WebitelSdkIos11ReplyMarkupV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos11ReplyMarkupV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13WebitelSdkIos11ReplyMarkupV2eeoiySbAC_ACtFZ",
+            "moduleName": "WebitelSdkIos",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13WebitelSdkIos11ReplyMarkupV",
+        "mangledName": "$s13WebitelSdkIos11ReplyMarkupV",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ButtonRow",
+        "printedName": "ButtonRow",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "buttons",
+            "printedName": "buttons",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[WebitelSdkIos.Button]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Button",
+                    "printedName": "WebitelSdkIos.Button",
+                    "usr": "s:13WebitelSdkIos6ButtonV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos9ButtonRowV7buttonsSayAA0D0VGvp",
+            "mangledName": "$s13WebitelSdkIos9ButtonRowV7buttonsSayAA0D0VGvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[WebitelSdkIos.Button]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Button",
+                        "printedName": "WebitelSdkIos.Button",
+                        "usr": "s:13WebitelSdkIos6ButtonV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos9ButtonRowV7buttonsSayAA0D0VGvg",
+                "mangledName": "$s13WebitelSdkIos9ButtonRowV7buttonsSayAA0D0VGvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos9ButtonRowV9hashValueSivp",
+            "mangledName": "$s13WebitelSdkIos9ButtonRowV9hashValueSivp",
+            "moduleName": "WebitelSdkIos",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos9ButtonRowV9hashValueSivg",
+                "mangledName": "$s13WebitelSdkIos9ButtonRowV9hashValueSivg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos9ButtonRowV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13WebitelSdkIos9ButtonRowV4hash4intoys6HasherVz_tF",
+            "moduleName": "WebitelSdkIos",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonRow",
+                "printedName": "WebitelSdkIos.ButtonRow",
+                "usr": "s:13WebitelSdkIos9ButtonRowV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonRow",
+                "printedName": "WebitelSdkIos.ButtonRow",
+                "usr": "s:13WebitelSdkIos9ButtonRowV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos9ButtonRowV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13WebitelSdkIos9ButtonRowV2eeoiySbAC_ACtFZ",
+            "moduleName": "WebitelSdkIos",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13WebitelSdkIos9ButtonRowV",
+        "mangledName": "$s13WebitelSdkIos9ButtonRowV",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Button",
+        "printedName": "Button",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos6ButtonV4textSSvp",
+            "mangledName": "$s13WebitelSdkIos6ButtonV4textSSvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos6ButtonV4textSSvg",
+                "mangledName": "$s13WebitelSdkIos6ButtonV4textSSvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonType",
+                "printedName": "WebitelSdkIos.ButtonType",
+                "usr": "s:13WebitelSdkIos10ButtonTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos6ButtonV4typeAA0D4TypeOvp",
+            "mangledName": "$s13WebitelSdkIos6ButtonV4typeAA0D4TypeOvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ButtonType",
+                    "printedName": "WebitelSdkIos.ButtonType",
+                    "usr": "s:13WebitelSdkIos10ButtonTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos6ButtonV4typeAA0D4TypeOvg",
+                "mangledName": "$s13WebitelSdkIos6ButtonV4typeAA0D4TypeOvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos6ButtonV9hashValueSivp",
+            "mangledName": "$s13WebitelSdkIos6ButtonV9hashValueSivp",
+            "moduleName": "WebitelSdkIos",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos6ButtonV9hashValueSivg",
+                "mangledName": "$s13WebitelSdkIos6ButtonV9hashValueSivg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos6ButtonV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13WebitelSdkIos6ButtonV4hash4intoys6HasherVz_tF",
+            "moduleName": "WebitelSdkIos",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Button",
+                "printedName": "WebitelSdkIos.Button",
+                "usr": "s:13WebitelSdkIos6ButtonV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Button",
+                "printedName": "WebitelSdkIos.Button",
+                "usr": "s:13WebitelSdkIos6ButtonV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos6ButtonV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13WebitelSdkIos6ButtonV2eeoiySbAC_ACtFZ",
+            "moduleName": "WebitelSdkIos",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13WebitelSdkIos6ButtonV",
+        "mangledName": "$s13WebitelSdkIos6ButtonV",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ButtonType",
+        "printedName": "ButtonType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Url",
+            "printedName": "Url",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebitelSdkIos.ButtonType.Type) -> (Swift.String) -> WebitelSdkIos.ButtonType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> WebitelSdkIos.ButtonType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ButtonType",
+                        "printedName": "WebitelSdkIos.ButtonType",
+                        "usr": "s:13WebitelSdkIos10ButtonTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(url: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WebitelSdkIos.ButtonType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ButtonType",
+                        "printedName": "WebitelSdkIos.ButtonType",
+                        "usr": "s:13WebitelSdkIos10ButtonTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WebitelSdkIos10ButtonTypeO3UrlyACSS_tcACmF",
+            "mangledName": "$s13WebitelSdkIos10ButtonTypeO3UrlyACSS_tcACmF",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Postback",
+            "printedName": "Postback",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebitelSdkIos.ButtonType.Type) -> (Swift.String) -> WebitelSdkIos.ButtonType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> WebitelSdkIos.ButtonType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ButtonType",
+                        "printedName": "WebitelSdkIos.ButtonType",
+                        "usr": "s:13WebitelSdkIos10ButtonTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(code: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WebitelSdkIos.ButtonType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ButtonType",
+                        "printedName": "WebitelSdkIos.ButtonType",
+                        "usr": "s:13WebitelSdkIos10ButtonTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WebitelSdkIos10ButtonTypeO8PostbackyACSS_tcACmF",
+            "mangledName": "$s13WebitelSdkIos10ButtonTypeO8PostbackyACSS_tcACmF",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos10ButtonTypeO9hashValueSivp",
+            "mangledName": "$s13WebitelSdkIos10ButtonTypeO9hashValueSivp",
+            "moduleName": "WebitelSdkIos",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos10ButtonTypeO9hashValueSivg",
+                "mangledName": "$s13WebitelSdkIos10ButtonTypeO9hashValueSivg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos10ButtonTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13WebitelSdkIos10ButtonTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "WebitelSdkIos",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonType",
+                "printedName": "WebitelSdkIos.ButtonType",
+                "usr": "s:13WebitelSdkIos10ButtonTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonType",
+                "printedName": "WebitelSdkIos.ButtonType",
+                "usr": "s:13WebitelSdkIos10ButtonTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos10ButtonTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13WebitelSdkIos10ButtonTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "WebitelSdkIos",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13WebitelSdkIos10ButtonTypeO",
+        "mangledName": "$s13WebitelSdkIos10ButtonTypeO",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2772,6 +3656,128 @@
                 "declKind": "Accessor",
                 "usr": "s:13WebitelSdkIos7MessageV4fileAA4FileVSgvg",
                 "mangledName": "$s13WebitelSdkIos7MessageV4fileAA4FileVSgvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "postback",
+            "printedName": "postback",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebitelSdkIos.Postback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Postback",
+                    "printedName": "WebitelSdkIos.Postback",
+                    "usr": "s:13WebitelSdkIos8PostbackV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos7MessageV8postbackAA8PostbackVSgvp",
+            "mangledName": "$s13WebitelSdkIos7MessageV8postbackAA8PostbackVSgvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WebitelSdkIos.Postback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Postback",
+                        "printedName": "WebitelSdkIos.Postback",
+                        "usr": "s:13WebitelSdkIos8PostbackV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos7MessageV8postbackAA8PostbackVSgvg",
+                "mangledName": "$s13WebitelSdkIos7MessageV8postbackAA8PostbackVSgvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "replyMarkup",
+            "printedName": "replyMarkup",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebitelSdkIos.ReplyMarkup?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReplyMarkup",
+                    "printedName": "WebitelSdkIos.ReplyMarkup",
+                    "usr": "s:13WebitelSdkIos11ReplyMarkupV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos7MessageV11replyMarkupAA05ReplyF0VSgvp",
+            "mangledName": "$s13WebitelSdkIos7MessageV11replyMarkupAA05ReplyF0VSgvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WebitelSdkIos.ReplyMarkup?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReplyMarkup",
+                        "printedName": "WebitelSdkIos.ReplyMarkup",
+                        "usr": "s:13WebitelSdkIos11ReplyMarkupV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos7MessageV11replyMarkupAA05ReplyF0VSgvg",
+                "mangledName": "$s13WebitelSdkIos7MessageV11replyMarkupAA05ReplyF0VSgvg",
                 "moduleName": "WebitelSdkIos",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8809,14 +9815,14 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/domain\/Message.swift",
       "kind": "StringLiteral",
-      "offset": 610,
+      "offset": 624,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/domain\/Message.swift",
       "kind": "StringLiteral",
-      "offset": 634,
+      "offset": 648,
       "length": 2,
       "value": "\"\""
     },
