@@ -197,6 +197,9 @@ public struct File : Swift.Hashable {
   }
 }
 public struct Postback : Swift.Hashable {
+  public let text: Swift.String
+  public let mid: Swift.Int64
+  public let code: Swift.String
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WebitelSdkIos.Postback, b: WebitelSdkIos.Postback) -> Swift.Bool
   public var hashValue: Swift.Int {

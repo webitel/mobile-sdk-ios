@@ -6081,6 +6081,141 @@
         "children": [
           {
             "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos8PostbackV4textSSvp",
+            "mangledName": "$s13WebitelSdkIos8PostbackV4textSSvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos8PostbackV4textSSvg",
+                "mangledName": "$s13WebitelSdkIos8PostbackV4textSSvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mid",
+            "printedName": "mid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos8PostbackV3mids5Int64Vvp",
+            "mangledName": "$s13WebitelSdkIos8PostbackV3mids5Int64Vvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos8PostbackV3mids5Int64Vvg",
+                "mangledName": "$s13WebitelSdkIos8PostbackV3mids5Int64Vvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos8PostbackV4codeSSvp",
+            "mangledName": "$s13WebitelSdkIos8PostbackV4codeSSvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos8PostbackV4codeSSvg",
+                "mangledName": "$s13WebitelSdkIos8PostbackV4codeSSvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "hashValue",
             "printedName": "hashValue",
             "children": [
