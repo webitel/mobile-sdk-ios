@@ -49,6 +49,7 @@ public protocol Dialog {
   func addListener(listener: any WebitelSdkIos.DialogListener)
   func removeListener(listener: any WebitelSdkIos.DialogListener)
   func removeAllListeners()
+  func sendPostback(params: WebitelSdkIos.PostbackParams, completion: @escaping (Swift.Result<WebitelSdkIos.Message, Foundation.NSError>) -> Swift.Void)
 }
 public struct StreamObserver {
   public init(onNext: @escaping (Foundation.Data) -> Swift.Void, onCompleted: @escaping () -> Swift.Void, onFailed: @escaping (Foundation.NSError) -> Swift.Void)
@@ -100,6 +101,16 @@ public struct Message : Swift.Hashable {
     get
   }
 }
+@_hasMissingDesignatedInitializers public class PostbackParams {
+  public typealias Builder = (_ builder: WebitelSdkIos.PostbackParamsBuilder) -> Swift.Void
+  public static func with(mid: Swift.Int64, text: Swift.String, code: Swift.String, builder builderBlock: (_ builder: WebitelSdkIos.PostbackParamsBuilder) -> Swift.Void) -> WebitelSdkIos.PostbackParams
+  public static func with(mid: Swift.Int64, text: Swift.String, code: Swift.String) -> WebitelSdkIos.PostbackParams
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class PostbackParamsBuilder {
+  final public var sendId: Swift.String
+  @objc deinit
+}
 public struct Member : Swift.Hashable {
   public let id: Swift.String
   public let name: Swift.String
@@ -144,6 +155,13 @@ public struct File : Swift.Hashable {
   public let size: Swift.Int64
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WebitelSdkIos.File, b: WebitelSdkIos.File) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Postback : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: WebitelSdkIos.Postback, b: WebitelSdkIos.Postback) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
