@@ -15,6 +15,17 @@ public protocol ChatClient {
 }
 public struct RequestParams {
 }
+@_hasMissingDesignatedInitializers public class FileTransferRequest {
+  public class Builder {
+    public init(stream: Foundation.InputStream, fileName: Swift.String, mimeType: Swift.String)
+    convenience public init(stream: Foundation.InputStream, pid: Swift.String)
+    public func transferListener(listener: WebitelSdkIos.UploadListener) -> WebitelSdkIos.FileTransferRequest.Builder
+    public func sendId(_ id: Swift.String) -> WebitelSdkIos.FileTransferRequest.Builder
+    public func build() -> WebitelSdkIos.FileTransferRequest
+    @objc deinit
+  }
+  @objc deinit
+}
 public enum PushTokenType {
   case apns, fcm
   public static func == (a: WebitelSdkIos.PushTokenType, b: WebitelSdkIos.PushTokenType) -> Swift.Bool
@@ -80,7 +91,11 @@ public protocol Dialog {
   func getHistory(completion: @escaping (Swift.Result<[WebitelSdkIos.Message], Foundation.NSError>) -> Swift.Void)
   func getUpdates(params: WebitelSdkIos.RequestParams, completion: @escaping (Swift.Result<[WebitelSdkIos.Message], Foundation.NSError>) -> Swift.Void)
   func getUpdates(completion: @escaping (Swift.Result<[WebitelSdkIos.Message], Foundation.NSError>) -> Swift.Void)
+  @available(*, deprecated, message: "Use 'downloadFile(fileId: String, listener: DownloadLisener)->CancellationToken' insted")
   func downloadFile(fileId: Swift.String, observer: WebitelSdkIos.StreamObserver)
+  func downloadFile(fileId: Swift.String, listener: WebitelSdkIos.DownloadLisener) -> any WebitelSdkIos.CancellationToken
+  func downloadFile(fileId: Swift.String, offset: Swift.Int64, listener: WebitelSdkIos.DownloadLisener) -> any WebitelSdkIos.CancellationToken
+  func sendFile(request: WebitelSdkIos.FileTransferRequest, completion: @escaping (Swift.Result<WebitelSdkIos.Message, Foundation.NSError>) -> Swift.Void) -> any WebitelSdkIos.CancellationToken
   func addListener(listener: any WebitelSdkIos.DialogListener)
   func removeListener(listener: any WebitelSdkIos.DialogListener)
   func removeAllListeners()
@@ -113,6 +128,9 @@ public class RequestParamsBuilder {
   public func setOffset(_ offset: Swift.Int64) -> Self
   public func build() -> WebitelSdkIos.RequestParams
   @objc deinit
+}
+public struct UploadListener {
+  public init(onStarted: @escaping (Swift.String) -> Swift.Void, onProgress: @escaping (Swift.Int64) -> Swift.Void, onCompleted: @escaping () -> Swift.Void, onCanceled: @escaping () -> Swift.Void, onFailed: @escaping (Foundation.NSError) -> Swift.Void)
 }
 public struct Message : Swift.Hashable {
   public let id: Swift.Int64
@@ -206,6 +224,9 @@ public struct Postback : Swift.Hashable {
     get
   }
 }
+public struct DownloadLisener {
+  public init(onData: @escaping (Foundation.Data) -> Swift.Void, onCompleted: @escaping () -> Swift.Void, onCanceled: @escaping () -> Swift.Void, onFailed: @escaping (Foundation.NSError) -> Swift.Void)
+}
 public struct UserSession {
   public let isChatAvailable: Swift.Bool
   public let isVoiceAvailable: Swift.Bool
@@ -214,6 +235,13 @@ public protocol VoiceClient {
 }
 public protocol DialogListener : AnyObject {
   func onNewMessage(_ message: WebitelSdkIos.Message)
+}
+public enum InvalidStateException : Swift.Error {
+  case invalidState(message: Swift.String)
+}
+public protocol CancellationToken {
+  func cancel(cleanUp: Swift.Bool) throws
+  func cancel() throws
 }
 extension WebitelSdkIos.PushTokenType : Swift.Equatable {}
 extension WebitelSdkIos.PushTokenType : Swift.Hashable {}
