@@ -184,6 +184,7 @@ public protocol PortalClient {
   func registerDevice(pushToken: Swift.String, completion: @escaping (Swift.Result<Swift.Void, Foundation.NSError>) -> Swift.Void)
   func registerDevice(pushToken: Swift.String, pushTokenType: WebitelSdkIos.PushTokenType, completion: @escaping (Swift.Result<Swift.Void, Foundation.NSError>) -> Swift.Void)
   func setAccessToken(token: Swift.String)
+  func setAccessToken(token: Swift.String, completion: @escaping (Swift.Result<Swift.Void, Foundation.NSError>) -> Swift.Void)
   func getConnectState() -> WebitelSdkIos.ConnectState
   func addConnectListener(listener: any WebitelSdkIos.ConnectListener)
   func removeConnectListener(listener: any WebitelSdkIos.ConnectListener)
@@ -236,12 +237,12 @@ public protocol VoiceClient {
 public protocol DialogListener : AnyObject {
   func onNewMessage(_ message: WebitelSdkIos.Message)
 }
-public enum InvalidStateException : Swift.Error {
-  case invalidState(message: Swift.String)
-}
 public protocol CancellationToken {
   func cancel(cleanUp: Swift.Bool) throws
   func cancel() throws
+}
+public enum InvalidStateException : Swift.Error {
+  case invalidState(message: Swift.String)
 }
 extension WebitelSdkIos.PushTokenType : Swift.Equatable {}
 extension WebitelSdkIos.PushTokenType : Swift.Hashable {}

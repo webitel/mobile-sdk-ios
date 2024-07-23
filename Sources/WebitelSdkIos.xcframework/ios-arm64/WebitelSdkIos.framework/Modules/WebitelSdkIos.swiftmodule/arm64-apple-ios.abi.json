@@ -106,6 +106,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.ChatClient>",
             "sugared_genericSig": "<Self where Self : WebitelSdkIos.ChatClient>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
@@ -115,7 +118,8 @@
         "mangledName": "$s13WebitelSdkIos10ChatClientP",
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -147,7 +151,8 @@
         "mangledName": "$s13WebitelSdkIos13RequestParamsV",
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -198,16 +203,6 @@
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
           "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "WebitelSdkIos",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -685,7 +680,8 @@
         "mangledName": "$s13WebitelSdkIos13PushTokenTypeO",
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -2681,9 +2677,6 @@
             "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.Dialog>",
             "sugared_genericSig": "<Self where Self : WebitelSdkIos.Dialog>",
             "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -3498,7 +3491,8 @@
             "mangledName": "$s13WebitelSdkIos20RequestParamsBuilderC8setLimityACXDs5Int32VF",
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3524,7 +3518,8 @@
             "mangledName": "$s13WebitelSdkIos20RequestParamsBuilderC9setOffsetyACXDs5Int64VF",
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3545,7 +3540,8 @@
             "mangledName": "$s13WebitelSdkIos20RequestParamsBuilderC5buildAA0dE0VyF",
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -3555,7 +3551,8 @@
         "mangledName": "$s13WebitelSdkIos20RequestParamsBuilderC",
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -3805,7 +3802,8 @@
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3849,7 +3847,8 @@
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3893,7 +3892,8 @@
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3937,7 +3937,8 @@
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3981,7 +3982,8 @@
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4025,7 +4027,8 @@
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4069,7 +4072,8 @@
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4121,7 +4125,8 @@
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5049,7 +5054,8 @@
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5093,7 +5099,8 @@
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5137,7 +5144,8 @@
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5265,7 +5273,8 @@
         "mangledName": "$s13WebitelSdkIos6MemberV",
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -5529,6 +5538,9 @@
             "mangledName": "$s13WebitelSdkIos12PortalClientP04chatE0AA04ChatE0_pvp",
             "moduleName": "WebitelSdkIos",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -5721,6 +5733,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.PortalClient>",
             "sugared_genericSig": "<Self where Self : WebitelSdkIos.PortalClient>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -5846,6 +5861,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.PortalClient>",
             "sugared_genericSig": "<Self where Self : WebitelSdkIos.PortalClient>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -5873,6 +5891,70 @@
             "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.PortalClient>",
             "sugared_genericSig": "<Self where Self : WebitelSdkIos.PortalClient>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAccessToken",
+            "printedName": "setAccessToken(token:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), Foundation.NSError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), Foundation.NSError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos12PortalClientP14setAccessToken5token10completionySS_ys6ResultOyytSo7NSErrorCGctF",
+            "mangledName": "$s13WebitelSdkIos12PortalClientP14setAccessToken5token10completionySS_ys6ResultOyytSo7NSErrorCGctF",
+            "moduleName": "WebitelSdkIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.PortalClient>",
+            "sugared_genericSig": "<Self where Self : WebitelSdkIos.PortalClient>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -5895,6 +5977,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.PortalClient>",
             "sugared_genericSig": "<Self where Self : WebitelSdkIos.PortalClient>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -5922,6 +6007,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.PortalClient>",
             "sugared_genericSig": "<Self where Self : WebitelSdkIos.PortalClient>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -5949,6 +6037,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.PortalClient>",
             "sugared_genericSig": "<Self where Self : WebitelSdkIos.PortalClient>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -5970,6 +6061,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.PortalClient>",
             "sugared_genericSig": "<Self where Self : WebitelSdkIos.PortalClient>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -5991,6 +6085,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.PortalClient>",
             "sugared_genericSig": "<Self where Self : WebitelSdkIos.PortalClient>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
@@ -6949,8 +7046,7 @@
         "mangledName": "$s13WebitelSdkIos15DownloadLisenerV",
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ]
       },
       {
@@ -7137,7 +7233,8 @@
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -7148,6 +7245,76 @@
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CancellationToken",
+        "printedName": "CancellationToken",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cancel",
+            "printedName": "cancel(cleanUp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos17CancellationTokenP6cancel7cleanUpySb_tKF",
+            "mangledName": "$s13WebitelSdkIos17CancellationTokenP6cancel7cleanUpySb_tKF",
+            "moduleName": "WebitelSdkIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.CancellationToken>",
+            "sugared_genericSig": "<Self where Self : WebitelSdkIos.CancellationToken>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancel",
+            "printedName": "cancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos17CancellationTokenP6cancelyyKF",
+            "mangledName": "$s13WebitelSdkIos17CancellationTokenP6cancelyyKF",
+            "moduleName": "WebitelSdkIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.CancellationToken>",
+            "sugared_genericSig": "<Self where Self : WebitelSdkIos.CancellationToken>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13WebitelSdkIos17CancellationTokenP",
+        "mangledName": "$s13WebitelSdkIos17CancellationTokenP",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -7235,77 +7402,6 @@
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
           }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CancellationToken",
-        "printedName": "CancellationToken",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "cancel",
-            "printedName": "cancel(cleanUp:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13WebitelSdkIos17CancellationTokenP6cancel7cleanUpySb_tKF",
-            "mangledName": "$s13WebitelSdkIos17CancellationTokenP6cancel7cleanUpySb_tKF",
-            "moduleName": "WebitelSdkIos",
-            "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.CancellationToken>",
-            "sugared_genericSig": "<Self where Self : WebitelSdkIos.CancellationToken>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "cancel",
-            "printedName": "cancel()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13WebitelSdkIos17CancellationTokenP6cancelyyKF",
-            "mangledName": "$s13WebitelSdkIos17CancellationTokenP6cancelyyKF",
-            "moduleName": "WebitelSdkIos",
-            "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.CancellationToken>",
-            "sugared_genericSig": "<Self where Self : WebitelSdkIos.CancellationToken>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:13WebitelSdkIos17CancellationTokenP",
-        "mangledName": "$s13WebitelSdkIos17CancellationTokenP",
-        "moduleName": "WebitelSdkIos",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
         ]
       },
       {
@@ -7452,1568 +7548,1568 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 3385,
+      "offset": 3384,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "IntegerLiteral",
-      "offset": 3477,
+      "offset": 3476,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 3715,
+      "offset": 3714,
       "length": 9,
       "value": "\"iPod5,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 3771,
+      "offset": 3770,
       "length": 29,
       "value": "\"iPod touch (5th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 3818,
+      "offset": 3817,
       "length": 9,
       "value": "\"iPod7,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 3874,
+      "offset": 3873,
       "length": 29,
       "value": "\"iPod touch (6th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 3921,
+      "offset": 3920,
       "length": 9,
       "value": "\"iPod9,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 3977,
+      "offset": 3976,
       "length": 29,
       "value": "\"iPod touch (7th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4024,
+      "offset": 4023,
       "length": 11,
       "value": "\"iPhone3,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4037,
+      "offset": 4036,
       "length": 11,
       "value": "\"iPhone3,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4050,
+      "offset": 4049,
       "length": 11,
       "value": "\"iPhone3,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4080,
+      "offset": 4079,
       "length": 10,
       "value": "\"iPhone 4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4108,
+      "offset": 4107,
       "length": 11,
       "value": "\"iPhone4,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4164,
+      "offset": 4163,
       "length": 11,
       "value": "\"iPhone 4s\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4193,
+      "offset": 4192,
       "length": 11,
       "value": "\"iPhone5,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4206,
+      "offset": 4205,
       "length": 11,
       "value": "\"iPhone5,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4249,
+      "offset": 4248,
       "length": 10,
       "value": "\"iPhone 5\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4277,
+      "offset": 4276,
       "length": 11,
       "value": "\"iPhone5,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4290,
+      "offset": 4289,
       "length": 11,
       "value": "\"iPhone5,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4333,
+      "offset": 4332,
       "length": 11,
       "value": "\"iPhone 5c\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4362,
+      "offset": 4361,
       "length": 11,
       "value": "\"iPhone6,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4375,
+      "offset": 4374,
       "length": 11,
       "value": "\"iPhone6,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4418,
+      "offset": 4417,
       "length": 11,
       "value": "\"iPhone 5s\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4447,
+      "offset": 4446,
       "length": 11,
       "value": "\"iPhone7,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4503,
+      "offset": 4502,
       "length": 10,
       "value": "\"iPhone 6\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4531,
+      "offset": 4530,
       "length": 11,
       "value": "\"iPhone7,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4587,
+      "offset": 4586,
       "length": 15,
       "value": "\"iPhone 6 Plus\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4620,
+      "offset": 4619,
       "length": 11,
       "value": "\"iPhone8,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4676,
+      "offset": 4675,
       "length": 11,
       "value": "\"iPhone 6s\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4705,
+      "offset": 4704,
       "length": 11,
       "value": "\"iPhone8,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4761,
+      "offset": 4760,
       "length": 16,
       "value": "\"iPhone 6s Plus\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4795,
+      "offset": 4794,
       "length": 11,
       "value": "\"iPhone9,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4808,
+      "offset": 4807,
       "length": 11,
       "value": "\"iPhone9,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4851,
+      "offset": 4850,
       "length": 10,
       "value": "\"iPhone 7\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4879,
+      "offset": 4878,
       "length": 11,
       "value": "\"iPhone9,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4892,
+      "offset": 4891,
       "length": 11,
       "value": "\"iPhone9,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4935,
+      "offset": 4934,
       "length": 15,
       "value": "\"iPhone 7 Plus\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4968,
+      "offset": 4967,
       "length": 12,
       "value": "\"iPhone10,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4982,
+      "offset": 4981,
       "length": 12,
       "value": "\"iPhone10,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5024,
+      "offset": 5023,
       "length": 10,
       "value": "\"iPhone 8\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5052,
+      "offset": 5051,
       "length": 12,
       "value": "\"iPhone10,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5066,
+      "offset": 5065,
       "length": 12,
       "value": "\"iPhone10,5\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5108,
+      "offset": 5107,
       "length": 15,
       "value": "\"iPhone 8 Plus\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5141,
+      "offset": 5140,
       "length": 12,
       "value": "\"iPhone10,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5155,
+      "offset": 5154,
       "length": 12,
       "value": "\"iPhone10,6\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5197,
+      "offset": 5196,
       "length": 10,
       "value": "\"iPhone X\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5225,
+      "offset": 5224,
       "length": 12,
       "value": "\"iPhone11,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5281,
+      "offset": 5280,
       "length": 11,
       "value": "\"iPhone XS\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5310,
+      "offset": 5309,
       "length": 12,
       "value": "\"iPhone11,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5324,
+      "offset": 5323,
       "length": 12,
       "value": "\"iPhone11,6\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5366,
+      "offset": 5365,
       "length": 15,
       "value": "\"iPhone XS Max\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5399,
+      "offset": 5398,
       "length": 12,
       "value": "\"iPhone11,8\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5455,
+      "offset": 5454,
       "length": 11,
       "value": "\"iPhone XR\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5484,
+      "offset": 5483,
       "length": 12,
       "value": "\"iPhone12,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5540,
+      "offset": 5539,
       "length": 11,
       "value": "\"iPhone 11\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5569,
+      "offset": 5568,
       "length": 12,
       "value": "\"iPhone12,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5625,
+      "offset": 5624,
       "length": 15,
       "value": "\"iPhone 11 Pro\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5658,
+      "offset": 5657,
       "length": 12,
       "value": "\"iPhone12,5\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5714,
+      "offset": 5713,
       "length": 19,
       "value": "\"iPhone 11 Pro Max\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5751,
+      "offset": 5750,
       "length": 12,
       "value": "\"iPhone13,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5807,
+      "offset": 5806,
       "length": 16,
       "value": "\"iPhone 12 mini\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5841,
+      "offset": 5840,
       "length": 12,
       "value": "\"iPhone13,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5897,
+      "offset": 5896,
       "length": 11,
       "value": "\"iPhone 12\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5926,
+      "offset": 5925,
       "length": 12,
       "value": "\"iPhone13,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 5982,
+      "offset": 5981,
       "length": 15,
       "value": "\"iPhone 12 Pro\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6015,
+      "offset": 6014,
       "length": 12,
       "value": "\"iPhone13,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6071,
+      "offset": 6070,
       "length": 19,
       "value": "\"iPhone 12 Pro Max\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6108,
+      "offset": 6107,
       "length": 12,
       "value": "\"iPhone14,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6164,
+      "offset": 6163,
       "length": 16,
       "value": "\"iPhone 13 mini\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6198,
+      "offset": 6197,
       "length": 12,
       "value": "\"iPhone14,5\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6254,
+      "offset": 6253,
       "length": 11,
       "value": "\"iPhone 13\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6283,
+      "offset": 6282,
       "length": 12,
       "value": "\"iPhone14,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6339,
+      "offset": 6338,
       "length": 15,
       "value": "\"iPhone 13 Pro\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6372,
+      "offset": 6371,
       "length": 12,
       "value": "\"iPhone14,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6428,
+      "offset": 6427,
       "length": 19,
       "value": "\"iPhone 13 Pro Max\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6465,
+      "offset": 6464,
       "length": 12,
       "value": "\"iPhone14,7\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6521,
+      "offset": 6520,
       "length": 11,
       "value": "\"iPhone 14\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6550,
+      "offset": 6549,
       "length": 12,
       "value": "\"iPhone14,8\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6606,
+      "offset": 6605,
       "length": 16,
       "value": "\"iPhone 14 Plus\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6640,
+      "offset": 6639,
       "length": 12,
       "value": "\"iPhone15,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6696,
+      "offset": 6695,
       "length": 15,
       "value": "\"iPhone 14 Pro\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6729,
+      "offset": 6728,
       "length": 12,
       "value": "\"iPhone15,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6785,
+      "offset": 6784,
       "length": 19,
       "value": "\"iPhone 14 Pro Max\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6822,
+      "offset": 6821,
       "length": 12,
       "value": "\"iPhone15,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6878,
+      "offset": 6877,
       "length": 11,
       "value": "\"iPhone 15\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6907,
+      "offset": 6906,
       "length": 12,
       "value": "\"iPhone15,5\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6963,
+      "offset": 6962,
       "length": 16,
       "value": "\"iPhone 15 Plus\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 6997,
+      "offset": 6996,
       "length": 12,
       "value": "\"iPhone16,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7053,
+      "offset": 7052,
       "length": 15,
       "value": "\"iPhone 15 Pro\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7086,
+      "offset": 7085,
       "length": 12,
       "value": "\"iPhone16,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7142,
+      "offset": 7141,
       "length": 19,
       "value": "\"iPhone 15 Pro Max\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7179,
+      "offset": 7178,
       "length": 11,
       "value": "\"iPhone8,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7235,
+      "offset": 7234,
       "length": 11,
       "value": "\"iPhone SE\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7264,
+      "offset": 7263,
       "length": 12,
       "value": "\"iPhone12,8\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7320,
+      "offset": 7319,
       "length": 28,
       "value": "\"iPhone SE (2nd generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7366,
+      "offset": 7365,
       "length": 12,
       "value": "\"iPhone14,6\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7422,
+      "offset": 7421,
       "length": 28,
       "value": "\"iPhone SE (3rd generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7468,
+      "offset": 7467,
       "length": 9,
       "value": "\"iPad2,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7479,
+      "offset": 7478,
       "length": 9,
       "value": "\"iPad2,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7490,
+      "offset": 7489,
       "length": 9,
       "value": "\"iPad2,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7501,
+      "offset": 7500,
       "length": 9,
       "value": "\"iPad2,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7524,
+      "offset": 7523,
       "length": 8,
       "value": "\"iPad 2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7550,
+      "offset": 7549,
       "length": 9,
       "value": "\"iPad3,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7561,
+      "offset": 7560,
       "length": 9,
       "value": "\"iPad3,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7572,
+      "offset": 7571,
       "length": 9,
       "value": "\"iPad3,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7606,
+      "offset": 7605,
       "length": 23,
       "value": "\"iPad (3rd generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7647,
+      "offset": 7646,
       "length": 9,
       "value": "\"iPad3,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7658,
+      "offset": 7657,
       "length": 9,
       "value": "\"iPad3,5\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7669,
+      "offset": 7668,
       "length": 9,
       "value": "\"iPad3,6\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7703,
+      "offset": 7702,
       "length": 23,
       "value": "\"iPad (4th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7744,
+      "offset": 7743,
       "length": 10,
       "value": "\"iPad6,11\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7756,
+      "offset": 7755,
       "length": 10,
       "value": "\"iPad6,12\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7800,
+      "offset": 7799,
       "length": 23,
       "value": "\"iPad (5th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7841,
+      "offset": 7840,
       "length": 9,
       "value": "\"iPad7,5\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7852,
+      "offset": 7851,
       "length": 9,
       "value": "\"iPad7,6\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7897,
+      "offset": 7896,
       "length": 23,
       "value": "\"iPad (6th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7938,
+      "offset": 7937,
       "length": 10,
       "value": "\"iPad7,11\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7950,
+      "offset": 7949,
       "length": 10,
       "value": "\"iPad7,12\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 7994,
+      "offset": 7993,
       "length": 23,
       "value": "\"iPad (7th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8035,
+      "offset": 8034,
       "length": 10,
       "value": "\"iPad11,6\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8047,
+      "offset": 8046,
       "length": 10,
       "value": "\"iPad11,7\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8091,
+      "offset": 8090,
       "length": 23,
       "value": "\"iPad (8th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8132,
+      "offset": 8131,
       "length": 10,
       "value": "\"iPad12,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8144,
+      "offset": 8143,
       "length": 10,
       "value": "\"iPad12,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8188,
+      "offset": 8187,
       "length": 23,
       "value": "\"iPad (9th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8229,
+      "offset": 8228,
       "length": 11,
       "value": "\"iPad13,18\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8242,
+      "offset": 8241,
       "length": 11,
       "value": "\"iPad13,19\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8285,
+      "offset": 8284,
       "length": 24,
       "value": "\"iPad (10th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8327,
+      "offset": 8326,
       "length": 9,
       "value": "\"iPad4,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8338,
+      "offset": 8337,
       "length": 9,
       "value": "\"iPad4,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8349,
+      "offset": 8348,
       "length": 9,
       "value": "\"iPad4,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8383,
+      "offset": 8382,
       "length": 10,
       "value": "\"iPad Air\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8411,
+      "offset": 8410,
       "length": 9,
       "value": "\"iPad5,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8422,
+      "offset": 8421,
       "length": 9,
       "value": "\"iPad5,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8467,
+      "offset": 8466,
       "length": 12,
       "value": "\"iPad Air 2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8497,
+      "offset": 8496,
       "length": 10,
       "value": "\"iPad11,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8509,
+      "offset": 8508,
       "length": 10,
       "value": "\"iPad11,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8553,
+      "offset": 8552,
       "length": 27,
       "value": "\"iPad Air (3rd generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8598,
+      "offset": 8597,
       "length": 10,
       "value": "\"iPad13,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8610,
+      "offset": 8609,
       "length": 10,
       "value": "\"iPad13,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8654,
+      "offset": 8653,
       "length": 27,
       "value": "\"iPad Air (4th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8699,
+      "offset": 8698,
       "length": 11,
       "value": "\"iPad13,16\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8712,
+      "offset": 8711,
       "length": 11,
       "value": "\"iPad13,17\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8755,
+      "offset": 8754,
       "length": 27,
       "value": "\"iPad Air (5th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8800,
+      "offset": 8799,
       "length": 9,
       "value": "\"iPad2,5\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8811,
+      "offset": 8810,
       "length": 9,
       "value": "\"iPad2,6\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8822,
+      "offset": 8821,
       "length": 9,
       "value": "\"iPad2,7\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8856,
+      "offset": 8855,
       "length": 11,
       "value": "\"iPad mini\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8885,
+      "offset": 8884,
       "length": 9,
       "value": "\"iPad4,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8896,
+      "offset": 8895,
       "length": 9,
       "value": "\"iPad4,5\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8907,
+      "offset": 8906,
       "length": 9,
       "value": "\"iPad4,6\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8941,
+      "offset": 8940,
       "length": 13,
       "value": "\"iPad mini 2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8972,
+      "offset": 8971,
       "length": 9,
       "value": "\"iPad4,7\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8983,
+      "offset": 8982,
       "length": 9,
       "value": "\"iPad4,8\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 8994,
+      "offset": 8993,
       "length": 9,
       "value": "\"iPad4,9\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9028,
+      "offset": 9027,
       "length": 13,
       "value": "\"iPad mini 3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9059,
+      "offset": 9058,
       "length": 9,
       "value": "\"iPad5,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9070,
+      "offset": 9069,
       "length": 9,
       "value": "\"iPad5,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9115,
+      "offset": 9114,
       "length": 13,
       "value": "\"iPad mini 4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9146,
+      "offset": 9145,
       "length": 10,
       "value": "\"iPad11,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9158,
+      "offset": 9157,
       "length": 10,
       "value": "\"iPad11,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9202,
+      "offset": 9201,
       "length": 28,
       "value": "\"iPad mini (5th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9248,
+      "offset": 9247,
       "length": 10,
       "value": "\"iPad14,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9260,
+      "offset": 9259,
       "length": 10,
       "value": "\"iPad14,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9304,
+      "offset": 9303,
       "length": 28,
       "value": "\"iPad mini (6th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9350,
+      "offset": 9349,
       "length": 9,
       "value": "\"iPad6,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9361,
+      "offset": 9360,
       "length": 9,
       "value": "\"iPad6,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9406,
+      "offset": 9405,
       "length": 21,
       "value": "\"iPad Pro (9.7-inch)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9445,
+      "offset": 9444,
       "length": 9,
       "value": "\"iPad7,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9456,
+      "offset": 9455,
       "length": 9,
       "value": "\"iPad7,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9501,
+      "offset": 9500,
       "length": 22,
       "value": "\"iPad Pro (10.5-inch)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9541,
+      "offset": 9540,
       "length": 9,
       "value": "\"iPad8,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9552,
+      "offset": 9551,
       "length": 9,
       "value": "\"iPad8,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9563,
+      "offset": 9562,
       "length": 9,
       "value": "\"iPad8,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9574,
+      "offset": 9573,
       "length": 9,
       "value": "\"iPad8,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9597,
+      "offset": 9596,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (1st generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9652,
+      "offset": 9651,
       "length": 9,
       "value": "\"iPad8,9\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9663,
+      "offset": 9662,
       "length": 10,
       "value": "\"iPad8,10\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9708,
+      "offset": 9707,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (2nd generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9763,
+      "offset": 9762,
       "length": 10,
       "value": "\"iPad13,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9775,
+      "offset": 9774,
       "length": 10,
       "value": "\"iPad13,5\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9787,
+      "offset": 9786,
       "length": 10,
       "value": "\"iPad13,6\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9799,
+      "offset": 9798,
       "length": 10,
       "value": "\"iPad13,7\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9819,
+      "offset": 9818,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (3rd generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9874,
+      "offset": 9873,
       "length": 10,
       "value": "\"iPad14,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9886,
+      "offset": 9885,
       "length": 10,
       "value": "\"iPad14,4\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9930,
+      "offset": 9929,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (4th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9985,
+      "offset": 9984,
       "length": 9,
       "value": "\"iPad6,7\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 9996,
+      "offset": 9995,
       "length": 9,
       "value": "\"iPad6,8\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10041,
+      "offset": 10040,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (1st generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10098,
+      "offset": 10097,
       "length": 9,
       "value": "\"iPad7,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10109,
+      "offset": 10108,
       "length": 9,
       "value": "\"iPad7,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10154,
+      "offset": 10153,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (2nd generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10211,
+      "offset": 10210,
       "length": 9,
       "value": "\"iPad8,5\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10222,
+      "offset": 10221,
       "length": 9,
       "value": "\"iPad8,6\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10233,
+      "offset": 10232,
       "length": 9,
       "value": "\"iPad8,7\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10244,
+      "offset": 10243,
       "length": 9,
       "value": "\"iPad8,8\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10267,
+      "offset": 10266,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (3rd generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10324,
+      "offset": 10323,
       "length": 10,
       "value": "\"iPad8,11\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10336,
+      "offset": 10335,
       "length": 10,
       "value": "\"iPad8,12\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10380,
+      "offset": 10379,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (4th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10437,
+      "offset": 10436,
       "length": 10,
       "value": "\"iPad13,8\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10449,
+      "offset": 10448,
       "length": 10,
       "value": "\"iPad13,9\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10461,
+      "offset": 10460,
       "length": 11,
       "value": "\"iPad13,10\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10474,
+      "offset": 10473,
       "length": 11,
       "value": "\"iPad13,11\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10493,
+      "offset": 10492,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (5th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10550,
+      "offset": 10549,
       "length": 10,
       "value": "\"iPad14,5\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10562,
+      "offset": 10561,
       "length": 10,
       "value": "\"iPad14,6\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10606,
+      "offset": 10605,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (6th generation)\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10663,
+      "offset": 10662,
       "length": 12,
       "value": "\"AppleTV5,3\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10719,
+      "offset": 10718,
       "length": 10,
       "value": "\"Apple TV\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10747,
+      "offset": 10746,
       "length": 12,
       "value": "\"AppleTV6,2\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10803,
+      "offset": 10802,
       "length": 13,
       "value": "\"Apple TV 4K\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10834,
+      "offset": 10833,
       "length": 19,
       "value": "\"AudioAccessory1,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10890,
+      "offset": 10889,
       "length": 9,
       "value": "\"HomePod\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10917,
+      "offset": 10916,
       "length": 19,
       "value": "\"AudioAccessory5,1\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 10973,
+      "offset": 10972,
       "length": 14,
       "value": "\"HomePod mini\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 11005,
+      "offset": 11004,
       "length": 6,
       "value": "\"i386\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 11013,
+      "offset": 11012,
       "length": 8,
       "value": "\"x86_64\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 11023,
+      "offset": 11022,
       "length": 7,
       "value": "\"arm64\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 11061,
+      "offset": 11060,
       "length": 104,
       "value": "\"Simulator \""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 11124,
+      "offset": 11123,
       "length": 28,
       "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 11157,
+      "offset": 11156,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
-      "offset": 11164,
+      "offset": 11163,
       "length": 1,
       "value": "\"\""
     },
@@ -9307,14 +9403,14 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/WebitelChat.swift",
       "kind": "IntegerLiteral",
-      "offset": 21894,
+      "offset": 21923,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/WebitelChat.swift",
       "kind": "IntegerLiteral",
-      "offset": 35352,
+      "offset": 35381,
       "length": 1,
       "value": "1"
     },
@@ -9363,7 +9459,7 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/domain\/RequestParamsBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 188,
+      "offset": 799,
       "length": 2,
       "value": "50"
     },
@@ -10735,14 +10831,14 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/domain\/Message.swift",
       "kind": "StringLiteral",
-      "offset": 624,
+      "offset": 1084,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/domain\/Message.swift",
       "kind": "StringLiteral",
-      "offset": 648,
+      "offset": 1108,
       "length": 2,
       "value": "\"\""
     },
@@ -14165,14 +14261,14 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/grpc\/GrpcClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1400,
+      "offset": 1086,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/grpc\/GrpcClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1702,
+      "offset": 1388,
       "length": 1,
       "value": "1"
     },
