@@ -1631,8 +1631,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "CONNECTING",
-            "printedName": "CONNECTING",
+            "name": "none",
+            "printedName": "none",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -1662,179 +1662,152 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:13WebitelSdkIos12ConnectStateO10CONNECTINGyA2CmF",
-            "mangledName": "$s13WebitelSdkIos12ConnectStateO10CONNECTINGyA2CmF",
-            "moduleName": "WebitelSdkIos"
-          },
-          {
-            "kind": "Var",
-            "name": "READY",
-            "printedName": "READY",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WebitelSdkIos.ConnectState.Type) -> WebitelSdkIos.ConnectState",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ConnectState",
-                    "printedName": "WebitelSdkIos.ConnectState",
-                    "usr": "s:13WebitelSdkIos12ConnectStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "WebitelSdkIos.ConnectState.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ConnectState",
-                        "printedName": "WebitelSdkIos.ConnectState",
-                        "usr": "s:13WebitelSdkIos12ConnectStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:13WebitelSdkIos12ConnectStateO5READYyA2CmF",
-            "mangledName": "$s13WebitelSdkIos12ConnectStateO5READYyA2CmF",
-            "moduleName": "WebitelSdkIos"
-          },
-          {
-            "kind": "Var",
-            "name": "DISCONNECTED",
-            "printedName": "DISCONNECTED",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WebitelSdkIos.ConnectState.Type) -> WebitelSdkIos.ConnectState",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ConnectState",
-                    "printedName": "WebitelSdkIos.ConnectState",
-                    "usr": "s:13WebitelSdkIos12ConnectStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "WebitelSdkIos.ConnectState.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ConnectState",
-                        "printedName": "WebitelSdkIos.ConnectState",
-                        "usr": "s:13WebitelSdkIos12ConnectStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:13WebitelSdkIos12ConnectStateO12DISCONNECTEDyA2CmF",
-            "mangledName": "$s13WebitelSdkIos12ConnectStateO12DISCONNECTEDyA2CmF",
-            "moduleName": "WebitelSdkIos"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ConnectState",
-                "printedName": "WebitelSdkIos.ConnectState",
-                "usr": "s:13WebitelSdkIos12ConnectStateO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ConnectState",
-                "printedName": "WebitelSdkIos.ConnectState",
-                "usr": "s:13WebitelSdkIos12ConnectStateO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13WebitelSdkIos12ConnectStateO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s13WebitelSdkIos12ConnectStateO2eeoiySbAC_ACtFZ",
+            "usr": "s:13WebitelSdkIos12ConnectStateO4noneyA2CmF",
+            "mangledName": "$s13WebitelSdkIos12ConnectStateO4noneyA2CmF",
             "moduleName": "WebitelSdkIos",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13WebitelSdkIos12ConnectStateO9hashValueSivp",
-            "mangledName": "$s13WebitelSdkIos12ConnectStateO9hashValueSivp",
-            "moduleName": "WebitelSdkIos",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13WebitelSdkIos12ConnectStateO9hashValueSivg",
-                "mangledName": "$s13WebitelSdkIos12ConnectStateO9hashValueSivg",
-                "moduleName": "WebitelSdkIos",
-                "implicit": true,
-                "accessorKind": "get"
-              }
+            "declAttributes": [
+              "RawDocComment"
             ]
           },
           {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
+            "kind": "Var",
+            "name": "connecting",
+            "printedName": "connecting",
             "children": [
               {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebitelSdkIos.ConnectState.Type) -> WebitelSdkIos.ConnectState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectState",
+                    "printedName": "WebitelSdkIos.ConnectState",
+                    "usr": "s:13WebitelSdkIos12ConnectStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WebitelSdkIos.ConnectState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectState",
+                        "printedName": "WebitelSdkIos.ConnectState",
+                        "usr": "s:13WebitelSdkIos12ConnectStateO"
+                      }
+                    ]
+                  }
+                ]
               }
             ],
-            "declKind": "Func",
-            "usr": "s:13WebitelSdkIos12ConnectStateO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s13WebitelSdkIos12ConnectStateO4hash4intoys6HasherVz_tF",
+            "declKind": "EnumElement",
+            "usr": "s:13WebitelSdkIos12ConnectStateO10connectingyA2CmF",
+            "mangledName": "$s13WebitelSdkIos12ConnectStateO10connectingyA2CmF",
             "moduleName": "WebitelSdkIos",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ready",
+            "printedName": "ready",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebitelSdkIos.ConnectState.Type) -> WebitelSdkIos.ConnectState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectState",
+                    "printedName": "WebitelSdkIos.ConnectState",
+                    "usr": "s:13WebitelSdkIos12ConnectStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WebitelSdkIos.ConnectState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectState",
+                        "printedName": "WebitelSdkIos.ConnectState",
+                        "usr": "s:13WebitelSdkIos12ConnectStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WebitelSdkIos12ConnectStateO5readyyA2CmF",
+            "mangledName": "$s13WebitelSdkIos12ConnectStateO5readyyA2CmF",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "disconnected",
+            "printedName": "disconnected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebitelSdkIos.ConnectState.Type) -> (Foundation.NSError) -> WebitelSdkIos.ConnectState",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> WebitelSdkIos.ConnectState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectState",
+                        "printedName": "WebitelSdkIos.ConnectState",
+                        "usr": "s:13WebitelSdkIos12ConnectStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(reason: Foundation.NSError)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WebitelSdkIos.ConnectState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectState",
+                        "printedName": "WebitelSdkIos.ConnectState",
+                        "usr": "s:13WebitelSdkIos12ConnectStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WebitelSdkIos12ConnectStateO12disconnectedyACSo7NSErrorC_tcACmF",
+            "mangledName": "$s13WebitelSdkIos12ConnectStateO12disconnectedyACSo7NSErrorC_tcACmF",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           }
         ],
         "declKind": "Enum",
@@ -1842,23 +1815,8 @@
         "mangledName": "$s13WebitelSdkIos12ConnectStateO",
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          }
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -11629,98 +11587,98 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/customer.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 18402,
+      "offset": 18408,
       "length": 10,
       "value": "\"Customer\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/customer.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 18428,
+      "offset": 18434,
       "length": 25,
       "value": "\"webitel.portal.Customer\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/customer.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 18939,
+      "offset": 18945,
       "length": 6,
       "value": "\"Ping\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/customer.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 18959,
+      "offset": 18965,
       "length": 31,
       "value": "\"\/webitel.portal.Customer\/Ping\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/customer.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 19096,
+      "offset": 19102,
       "length": 7,
       "value": "\"Token\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/customer.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 19117,
+      "offset": 19123,
       "length": 32,
       "value": "\"\/webitel.portal.Customer\/Token\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/customer.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 19256,
+      "offset": 19262,
       "length": 8,
       "value": "\"Logout\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/customer.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 19278,
+      "offset": 19284,
       "length": 33,
       "value": "\"\/webitel.portal.Customer\/Logout\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/customer.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 19419,
+      "offset": 19425,
       "length": 9,
       "value": "\"Inspect\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/customer.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 19442,
+      "offset": 19448,
       "length": 34,
       "value": "\"\/webitel.portal.Customer\/Inspect\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/customer.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 19591,
+      "offset": 19597,
       "length": 16,
       "value": "\"RegisterDevice\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/customer.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 19621,
+      "offset": 19627,
       "length": 41,
       "value": "\"\/webitel.portal.Customer\/RegisterDevice\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/customer.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 19770,
+      "offset": 19776,
       "length": 9,
       "value": "\"Connect\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/customer.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 19793,
+      "offset": 19799,
       "length": 34,
       "value": "\"\/webitel.portal.Customer\/Connect\""
     },
@@ -12714,212 +12672,212 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5727,
+      "offset": 5856,
       "length": 16,
       "value": "\"webitel.portal\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5939,
+      "offset": 6068,
       "length": 9,
       "value": "\".Update\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 6012,
+      "offset": 6141,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6028,
+      "offset": 6157,
       "length": 6,
       "value": "\"date\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 6041,
+      "offset": 6170,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6057,
+      "offset": 6186,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7764,
+      "offset": 7893,
       "length": 10,
       "value": "\".Request\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7838,
+      "offset": 7967,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7854,
+      "offset": 7983,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7865,
+      "offset": 7994,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7881,
+      "offset": 8010,
       "length": 6,
       "value": "\"path\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7894,
+      "offset": 8023,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7910,
+      "offset": 8039,
       "length": 6,
       "value": "\"meta\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7923,
+      "offset": 8052,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7939,
+      "offset": 8068,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10299,
+      "offset": 10428,
       "length": 11,
       "value": "\".Response\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10374,
+      "offset": 10503,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10390,
+      "offset": 10519,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10401,
+      "offset": 10530,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10417,
+      "offset": 10546,
       "length": 6,
       "value": "\"meta\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10430,
+      "offset": 10559,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10446,
+      "offset": 10575,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10459,
+      "offset": 10588,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10475,
+      "offset": 10604,
       "length": 5,
       "value": "\"err\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 12846,
-      "length": 18,
-      "value": "\".UpdateSignedOut\""
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12928,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 12944,
-      "length": 7,
-      "value": "\"cause\""
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 14442,
+      "offset": 12964,
       "length": 7,
       "value": "\".Echo\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 14513,
+      "offset": 13035,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
       "kind": "StringLiteral",
-      "offset": 14529,
+      "offset": 13051,
       "length": 6,
       "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 14229,
+      "length": 19,
+      "value": "\".UpdateDisconnect\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14312,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/connect.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 14328,
+      "length": 7,
+      "value": "\"cause\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/customer.pb.swift",
@@ -14261,14 +14219,14 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/grpc\/GrpcClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1086,
+      "offset": 1078,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/grpc\/GrpcClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1388,
+      "offset": 1380,
       "length": 1,
       "value": "1"
     },

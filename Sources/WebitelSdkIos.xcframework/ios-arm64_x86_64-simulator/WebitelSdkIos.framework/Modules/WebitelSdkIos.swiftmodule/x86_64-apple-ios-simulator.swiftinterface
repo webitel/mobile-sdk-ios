@@ -70,12 +70,10 @@ public enum ButtonType : Swift.Hashable {
   }
 }
 public enum ConnectState {
-  case CONNECTING, READY, DISCONNECTED
-  public static func == (a: WebitelSdkIos.ConnectState, b: WebitelSdkIos.ConnectState) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
+  case none
+  case connecting
+  case ready
+  case disconnected(reason: Foundation.NSError)
 }
 public protocol ConnectListener : AnyObject {
   func onStateChanged(from: WebitelSdkIos.ConnectState, to: WebitelSdkIos.ConnectState)
@@ -246,8 +244,6 @@ public enum InvalidStateException : Swift.Error {
 }
 extension WebitelSdkIos.PushTokenType : Swift.Equatable {}
 extension WebitelSdkIos.PushTokenType : Swift.Hashable {}
-extension WebitelSdkIos.ConnectState : Swift.Equatable {}
-extension WebitelSdkIos.ConnectState : Swift.Hashable {}
 extension WebitelSdkIos.LogLevel : Swift.Equatable {}
 extension WebitelSdkIos.LogLevel : Swift.Hashable {}
 extension WebitelSdkIos.LogLevel : Swift.RawRepresentable {}

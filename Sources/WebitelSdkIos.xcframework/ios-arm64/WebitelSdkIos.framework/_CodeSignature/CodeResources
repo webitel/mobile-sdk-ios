@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nuIFwnMu7HjHhkb+AAS+Z0wOrkk=
+		GhQckZUvCz2tWHiLuKxsIt0nqNc=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		kb4BDhWCIVEYmOj5KpZ0c1czc9k=
+		iWLzpGyDZFr+xOFnp90Yg2BQfHs=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		0j7WiM3jPHWUskB2mlCTzpW0XFs=
+		oRL/dvQyTA+bfLvbdywh6sA9BjE=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		4PDAn6dqTtDrn+Tv2vqbW34lmCw=
+		jpiSR4jbkN6O87wZtuDYzwPfGFc=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		0j7WiM3jPHWUskB2mlCTzpW0XFs=
+		oRL/dvQyTA+bfLvbdywh6sA9BjE=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		YN6oK6xMyXMl2RyQ1nP1lIgB38o=
+		wtbIzPHCzm8RAcsC+4TVzAeJwvM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,10 +43,6 @@
 		<key>Podfile</key>
 		<data>
 		poi5MsGw3bi9tAOPttWcwiOK1PY=
-		</data>
-		<key>README.md</key>
-		<data>
-		fY27uH/QpZUCE4DZlIVmDbjAAW0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -69,35 +65,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uft0HcSdR7gOInHe884cjhCJ3qoOoxtmFzov+ufiZL0=
+			5s7P0AFvELF3xM99AaHk65HqeCgYKNrDfc9SvbI2EWw=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			an5VsM+xgFw7jGBG5Y+fPfSNlY1OnJOgRCMMy0RdhNM=
+			DoT8agSmbpsgg8cLAHq1h/urPMeE2kmNr1Fx7PYyfq4=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MUYoTwuAqqf59+6TfnlSgKsIwW36C4GHdvd7amtoHeo=
+			CyPYeiNtb4GVPujX3T3oaJWEXu0bFrJvIWLMoL8fsFw=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			an5VsM+xgFw7jGBG5Y+fPfSNlY1OnJOgRCMMy0RdhNM=
+			DoT8agSmbpsgg8cLAHq1h/urPMeE2kmNr1Fx7PYyfq4=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HklczOmuVvtKWWE/WP6/4K9gFPCjnsoUqF3fv/lBfjw=
+			K2cfqBvocT9ygRm097zUSzt70NBFxO6CKmX+1XZOWv8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -112,13 +108,6 @@
 			<key>hash2</key>
 			<data>
 			wV9T87yVLOPaz28T3mcRBg2KEibGw8pt00tFpaKXI2Q=
-			</data>
-		</dict>
-		<key>README.md</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lTVFs8yb9gfIk3ouRGuut7FZ6EeO05jyrkJ5axwtLoQ=
 			</data>
 		</dict>
 	</dict>
