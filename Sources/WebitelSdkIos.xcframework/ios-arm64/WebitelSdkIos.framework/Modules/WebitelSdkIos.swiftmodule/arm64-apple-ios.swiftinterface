@@ -15,12 +15,21 @@ public protocol ChatClient {
 }
 public struct RequestParams {
 }
+public struct Postback : Swift.Hashable {
+  public let text: Swift.String
+  public let mid: Swift.Int64
+  public let code: Swift.String
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: WebitelSdkIos.Postback, b: WebitelSdkIos.Postback) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class FileTransferRequest {
   public class Builder {
     public init(stream: Foundation.InputStream, fileName: Swift.String, mimeType: Swift.String)
     convenience public init(stream: Foundation.InputStream, pid: Swift.String)
     public func transferListener(listener: WebitelSdkIos.UploadListener) -> WebitelSdkIos.FileTransferRequest.Builder
-    public func sendId(_ id: Swift.String) -> WebitelSdkIos.FileTransferRequest.Builder
     public func build() -> WebitelSdkIos.FileTransferRequest
     @objc deinit
   }
@@ -93,7 +102,7 @@ public protocol Dialog {
   func downloadFile(fileId: Swift.String, observer: WebitelSdkIos.StreamObserver)
   func downloadFile(fileId: Swift.String, listener: WebitelSdkIos.DownloadLisener) -> any WebitelSdkIos.CancellationToken
   func downloadFile(fileId: Swift.String, offset: Swift.Int64, listener: WebitelSdkIos.DownloadLisener) -> any WebitelSdkIos.CancellationToken
-  func sendFile(request: WebitelSdkIos.FileTransferRequest, completion: @escaping (Swift.Result<WebitelSdkIos.Message, Foundation.NSError>) -> Swift.Void) -> any WebitelSdkIos.CancellationToken
+  func uploadFile(request: WebitelSdkIos.FileTransferRequest, completion: @escaping (Swift.Result<WebitelSdkIos.UploadResult, Foundation.NSError>) -> Swift.Void) -> any WebitelSdkIos.CancellationToken
   func addListener(listener: any WebitelSdkIos.DialogListener)
   func removeListener(listener: any WebitelSdkIos.DialogListener)
   func removeAllListeners()
@@ -128,7 +137,7 @@ public class RequestParamsBuilder {
   @objc deinit
 }
 public struct UploadListener {
-  public init(onStarted: @escaping (Swift.String) -> Swift.Void, onProgress: @escaping (Swift.Int64) -> Swift.Void, onCompleted: @escaping () -> Swift.Void, onCanceled: @escaping () -> Swift.Void, onFailed: @escaping (Foundation.NSError) -> Swift.Void)
+  public init(onStarted: @escaping (Swift.String) -> Swift.Void, onProgress: @escaping (Swift.Int64) -> Swift.Void, onCanceled: @escaping () -> Swift.Void)
 }
 public struct Message : Swift.Hashable {
   public let id: Swift.Int64
@@ -144,7 +153,7 @@ public struct Message : Swift.Hashable {
   public class options {
     public init()
     public func withText(_ text: Swift.String) -> Self
-    public func withFile(inputStream: Foundation.InputStream, contentType: Swift.String, filename: Swift.String, listener: WebitelSdkIos.MediaUploadListener) -> Self
+    public func withFile(file: WebitelSdkIos.File) -> Self
     public func sendId(_ id: Swift.String) -> Self
     @objc deinit
   }
@@ -163,6 +172,10 @@ public struct Message : Swift.Hashable {
 @_hasMissingDesignatedInitializers final public class PostbackParamsBuilder {
   final public var sendId: Swift.String
   @objc deinit
+}
+public struct UploadResult {
+  public let file: WebitelSdkIos.File
+  public let hash: [Swift.String : Swift.String]
 }
 public struct Member : Swift.Hashable {
   public let id: Swift.String
@@ -207,18 +220,9 @@ public struct File : Swift.Hashable {
   public let fileName: Swift.String
   public let type: Swift.String
   public let size: Swift.Int64
+  public init(id: Swift.String, fileName: Swift.String, type: Swift.String, size: Swift.Int64)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WebitelSdkIos.File, b: WebitelSdkIos.File) -> Swift.Bool
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public struct Postback : Swift.Hashable {
-  public let text: Swift.String
-  public let mid: Swift.Int64
-  public let code: Swift.String
-  public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: WebitelSdkIos.Postback, b: WebitelSdkIos.Postback) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }

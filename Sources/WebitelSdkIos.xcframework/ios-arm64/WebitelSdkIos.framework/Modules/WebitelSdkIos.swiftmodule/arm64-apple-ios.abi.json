@@ -186,6 +186,278 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "Postback",
+        "printedName": "Postback",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos8PostbackV4textSSvp",
+            "mangledName": "$s13WebitelSdkIos8PostbackV4textSSvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos8PostbackV4textSSvg",
+                "mangledName": "$s13WebitelSdkIos8PostbackV4textSSvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mid",
+            "printedName": "mid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos8PostbackV3mids5Int64Vvp",
+            "mangledName": "$s13WebitelSdkIos8PostbackV3mids5Int64Vvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos8PostbackV3mids5Int64Vvg",
+                "mangledName": "$s13WebitelSdkIos8PostbackV3mids5Int64Vvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos8PostbackV4codeSSvp",
+            "mangledName": "$s13WebitelSdkIos8PostbackV4codeSSvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos8PostbackV4codeSSvg",
+                "mangledName": "$s13WebitelSdkIos8PostbackV4codeSSvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos8PostbackV9hashValueSivp",
+            "mangledName": "$s13WebitelSdkIos8PostbackV9hashValueSivp",
+            "moduleName": "WebitelSdkIos",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos8PostbackV9hashValueSivg",
+                "mangledName": "$s13WebitelSdkIos8PostbackV9hashValueSivg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos8PostbackV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13WebitelSdkIos8PostbackV4hash4intoys6HasherVz_tF",
+            "moduleName": "WebitelSdkIos",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Postback",
+                "printedName": "WebitelSdkIos.Postback",
+                "usr": "s:13WebitelSdkIos8PostbackV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Postback",
+                "printedName": "WebitelSdkIos.Postback",
+                "usr": "s:13WebitelSdkIos8PostbackV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos8PostbackV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13WebitelSdkIos8PostbackV2eeoiySbAC_ACtFZ",
+            "moduleName": "WebitelSdkIos",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13WebitelSdkIos8PostbackV",
+        "mangledName": "$s13WebitelSdkIos8PostbackV",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -381,34 +653,6 @@
                 "declKind": "Func",
                 "usr": "s:13WebitelSdkIos19FileTransferRequestC7BuilderC16transferListener8listenerAeA06UploadI0V_tF",
                 "mangledName": "$s13WebitelSdkIos19FileTransferRequestC7BuilderC16transferListener8listenerAeA06UploadI0V_tF",
-                "moduleName": "WebitelSdkIos",
-                "declAttributes": [
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Function",
-                "name": "sendId",
-                "printedName": "sendId(_:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Builder",
-                    "printedName": "WebitelSdkIos.FileTransferRequest.Builder",
-                    "usr": "s:13WebitelSdkIos19FileTransferRequestC7BuilderC"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:13WebitelSdkIos19FileTransferRequestC7BuilderC6sendIdyAESSF",
-                "mangledName": "$s13WebitelSdkIos19FileTransferRequestC7BuilderC6sendIdyAESSF",
                 "moduleName": "WebitelSdkIos",
                 "declAttributes": [
                   "AccessControl",
@@ -2550,8 +2794,8 @@
           },
           {
             "kind": "Function",
-            "name": "sendFile",
-            "printedName": "sendFile(request:completion:)",
+            "name": "uploadFile",
+            "printedName": "uploadFile(request:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2568,7 +2812,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<WebitelSdkIos.Message, Foundation.NSError>) -> ()",
+                "printedName": "(Swift.Result<WebitelSdkIos.UploadResult, Foundation.NSError>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2578,13 +2822,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<WebitelSdkIos.Message, Foundation.NSError>",
+                    "printedName": "Swift.Result<WebitelSdkIos.UploadResult, Foundation.NSError>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Message",
-                        "printedName": "WebitelSdkIos.Message",
-                        "usr": "s:13WebitelSdkIos7MessageV"
+                        "name": "UploadResult",
+                        "printedName": "WebitelSdkIos.UploadResult",
+                        "usr": "s:13WebitelSdkIos12UploadResultV"
                       },
                       {
                         "kind": "TypeNominal",
@@ -2599,8 +2843,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13WebitelSdkIos6DialogP8sendFile7request10completionAA17CancellationToken_pAA0F15TransferRequestC_ys6ResultOyAA7MessageVSo7NSErrorCGctF",
-            "mangledName": "$s13WebitelSdkIos6DialogP8sendFile7request10completionAA17CancellationToken_pAA0F15TransferRequestC_ys6ResultOyAA7MessageVSo7NSErrorCGctF",
+            "usr": "s:13WebitelSdkIos6DialogP10uploadFile7request10completionAA17CancellationToken_pAA0F15TransferRequestC_ys6ResultOyAA06UploadM0VSo7NSErrorCGctF",
+            "mangledName": "$s13WebitelSdkIos6DialogP10uploadFile7request10completionAA17CancellationToken_pAA0F15TransferRequestC_ys6ResultOyAA06UploadM0VSo7NSErrorCGctF",
             "moduleName": "WebitelSdkIos",
             "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.Dialog>",
             "sugared_genericSig": "<Self where Self : WebitelSdkIos.Dialog>",
@@ -3571,7 +3815,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(onStarted:onProgress:onCompleted:onCanceled:onFailed:)",
+            "printedName": "init(onStarted:onProgress:onCanceled:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3631,46 +3875,11 @@
                     "printedName": "()"
                   }
                 ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Foundation.NSError) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSError",
-                    "printedName": "Foundation.NSError",
-                    "usr": "c:objc(cs)NSError"
-                  }
-                ]
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13WebitelSdkIos14UploadListenerV9onStarted0F8Progress0F9Completed0F8Canceled0F6FailedACySSc_ys5Int64VcyycyycySo7NSErrorCctcfc",
-            "mangledName": "$s13WebitelSdkIos14UploadListenerV9onStarted0F8Progress0F9Completed0F8Canceled0F6FailedACySSc_ys5Int64VcyycyycySo7NSErrorCctcfc",
+            "usr": "s:13WebitelSdkIos14UploadListenerV9onStarted0F8Progress0F8CanceledACySSc_ys5Int64Vcyyctcfc",
+            "mangledName": "$s13WebitelSdkIos14UploadListenerV9onStarted0F8Progress0F8CanceledACySSc_ys5Int64Vcyyctcfc",
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
               "AccessControl",
@@ -4262,7 +4471,8 @@
                 "mangledName": "$s13WebitelSdkIos7MessageV7optionsCAEycfc",
                 "moduleName": "WebitelSdkIos",
                 "declAttributes": [
-                  "AccessControl"
+                  "AccessControl",
+                  "RawDocComment"
                 ],
                 "init_kind": "Designated"
               },
@@ -4288,14 +4498,15 @@
                 "mangledName": "$s13WebitelSdkIos7MessageV7optionsC8withTextyAEXDSSF",
                 "moduleName": "WebitelSdkIos",
                 "declAttributes": [
-                  "AccessControl"
+                  "AccessControl",
+                  "RawDocComment"
                 ],
                 "funcSelfKind": "NonMutating"
               },
               {
                 "kind": "Function",
                 "name": "withFile",
-                "printedName": "withFile(inputStream:contentType:filename:listener:)",
+                "printedName": "withFile(file:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4304,35 +4515,18 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "InputStream",
-                    "printedName": "Foundation.InputStream",
-                    "usr": "c:objc(cs)NSInputStream"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MediaUploadListener",
-                    "printedName": "WebitelSdkIos.MediaUploadListener",
-                    "usr": "s:13WebitelSdkIos19MediaUploadListenerV"
+                    "name": "File",
+                    "printedName": "WebitelSdkIos.File",
+                    "usr": "s:13WebitelSdkIos4FileV"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:13WebitelSdkIos7MessageV7optionsC8withFile11inputStream11contentType8filename8listenerAEXDSo07NSInputI0C_S2SAA19MediaUploadListenerVtF",
-                "mangledName": "$s13WebitelSdkIos7MessageV7optionsC8withFile11inputStream11contentType8filename8listenerAEXDSo07NSInputI0C_S2SAA19MediaUploadListenerVtF",
+                "usr": "s:13WebitelSdkIos7MessageV7optionsC8withFile4fileAEXDAA0G0V_tF",
+                "mangledName": "$s13WebitelSdkIos7MessageV7optionsC8withFile4fileAEXDAA0G0V_tF",
                 "moduleName": "WebitelSdkIos",
                 "declAttributes": [
-                  "AccessControl"
+                  "AccessControl",
+                  "RawDocComment"
                 ],
                 "funcSelfKind": "NonMutating"
               },
@@ -4358,7 +4552,8 @@
                 "mangledName": "$s13WebitelSdkIos7MessageV7optionsC6sendIdyAEXDSSF",
                 "moduleName": "WebitelSdkIos",
                 "declAttributes": [
-                  "AccessControl"
+                  "AccessControl",
+                  "RawDocComment"
                 ],
                 "funcSelfKind": "NonMutating"
               }
@@ -4368,7 +4563,8 @@
             "mangledName": "$s13WebitelSdkIos7MessageV7optionsC",
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ]
           },
           {
@@ -4957,6 +5153,149 @@
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
           "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UploadResult",
+        "printedName": "UploadResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "file",
+            "printedName": "file",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "File",
+                "printedName": "WebitelSdkIos.File",
+                "usr": "s:13WebitelSdkIos4FileV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos12UploadResultV4fileAA4FileVvp",
+            "mangledName": "$s13WebitelSdkIos12UploadResultV4fileAA4FileVvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "File",
+                    "printedName": "WebitelSdkIos.File",
+                    "usr": "s:13WebitelSdkIos4FileV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos12UploadResultV4fileAA4FileVvg",
+                "mangledName": "$s13WebitelSdkIos12UploadResultV4fileAA4FileVvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hash",
+            "printedName": "hash",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos12UploadResultV4hashSDyS2SGvp",
+            "mangledName": "$s13WebitelSdkIos12UploadResultV4hashSDyS2SGvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos12UploadResultV4hashSDyS2SGvg",
+                "mangledName": "$s13WebitelSdkIos12UploadResultV4hashSDyS2SGvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13WebitelSdkIos12UploadResultV",
+        "mangledName": "$s13WebitelSdkIos12UploadResultV",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -6509,6 +6848,51 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:fileName:type:size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "File",
+                "printedName": "WebitelSdkIos.File",
+                "usr": "s:13WebitelSdkIos4FileV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13WebitelSdkIos4FileV2id8fileName4type4sizeACSS_S2Ss5Int64Vtcfc",
+            "mangledName": "$s13WebitelSdkIos4FileV2id8fileName4type4sizeACSS_S2Ss5Int64Vtcfc",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "hashValue",
             "printedName": "hashValue",
@@ -6611,268 +6995,6 @@
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
           "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Postback",
-        "printedName": "Postback",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "text",
-            "printedName": "text",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13WebitelSdkIos8PostbackV4textSSvp",
-            "mangledName": "$s13WebitelSdkIos8PostbackV4textSSvp",
-            "moduleName": "WebitelSdkIos",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13WebitelSdkIos8PostbackV4textSSvg",
-                "mangledName": "$s13WebitelSdkIos8PostbackV4textSSvg",
-                "moduleName": "WebitelSdkIos",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "mid",
-            "printedName": "mid",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int64",
-                "printedName": "Swift.Int64",
-                "usr": "s:s5Int64V"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13WebitelSdkIos8PostbackV3mids5Int64Vvp",
-            "mangledName": "$s13WebitelSdkIos8PostbackV3mids5Int64Vvp",
-            "moduleName": "WebitelSdkIos",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int64",
-                    "printedName": "Swift.Int64",
-                    "usr": "s:s5Int64V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13WebitelSdkIos8PostbackV3mids5Int64Vvg",
-                "mangledName": "$s13WebitelSdkIos8PostbackV3mids5Int64Vvg",
-                "moduleName": "WebitelSdkIos",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "code",
-            "printedName": "code",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13WebitelSdkIos8PostbackV4codeSSvp",
-            "mangledName": "$s13WebitelSdkIos8PostbackV4codeSSvp",
-            "moduleName": "WebitelSdkIos",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13WebitelSdkIos8PostbackV4codeSSvg",
-                "mangledName": "$s13WebitelSdkIos8PostbackV4codeSSvg",
-                "moduleName": "WebitelSdkIos",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13WebitelSdkIos8PostbackV9hashValueSivp",
-            "mangledName": "$s13WebitelSdkIos8PostbackV9hashValueSivp",
-            "moduleName": "WebitelSdkIos",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13WebitelSdkIos8PostbackV9hashValueSivg",
-                "mangledName": "$s13WebitelSdkIos8PostbackV9hashValueSivg",
-                "moduleName": "WebitelSdkIos",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13WebitelSdkIos8PostbackV4hash4intoys6HasherVz_tF",
-            "mangledName": "$s13WebitelSdkIos8PostbackV4hash4intoys6HasherVz_tF",
-            "moduleName": "WebitelSdkIos",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Postback",
-                "printedName": "WebitelSdkIos.Postback",
-                "usr": "s:13WebitelSdkIos8PostbackV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Postback",
-                "printedName": "WebitelSdkIos.Postback",
-                "usr": "s:13WebitelSdkIos8PostbackV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13WebitelSdkIos8PostbackV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s13WebitelSdkIos8PostbackV2eeoiySbAC_ACtFZ",
-            "moduleName": "WebitelSdkIos",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13WebitelSdkIos8PostbackV",
-        "mangledName": "$s13WebitelSdkIos8PostbackV",
-        "moduleName": "WebitelSdkIos",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
         ],
         "conformances": [
           {
@@ -9361,14 +9483,14 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/WebitelChat.swift",
       "kind": "IntegerLiteral",
-      "offset": 21923,
+      "offset": 20825,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/WebitelChat.swift",
       "kind": "IntegerLiteral",
-      "offset": 35381,
+      "offset": 34250,
       "length": 1,
       "value": "1"
     },
@@ -10789,14 +10911,14 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/domain\/Message.swift",
       "kind": "StringLiteral",
-      "offset": 1084,
+      "offset": 1166,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/domain\/Message.swift",
       "kind": "StringLiteral",
-      "offset": 1108,
+      "offset": 1223,
       "length": 2,
       "value": "\"\""
     },

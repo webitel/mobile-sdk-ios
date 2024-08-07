@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		78g4/QkiPh7cFwx5QZp3qh5vdl4=
+		1rrEsT1LFCI0XE1FzSh3SIdxDC4=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		iWLzpGyDZFr+xOFnp90Yg2BQfHs=
+		CMlwcM/SppXGquoXKUWRAIH72bY=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QJvJ77ATXB/FU+Z6ZooDzAC9xEo=
+		WH9XjgjmIXjsw1hmqmDfDZF1T2I=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		HUqeUS7bPFegQWrm/DvZd0TDhoo=
+		RL9fby+JfGTrXDrxnGcqJ2jL/wI=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QJvJ77ATXB/FU+Z6ZooDzAC9xEo=
+		WH9XjgjmIXjsw1hmqmDfDZF1T2I=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		F3ujnhrzpd9E94ZQSyifjQR5BXg=
+		1xisrhjO76AWbHyRlbEcbWnR9VE=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		iWLzpGyDZFr+xOFnp90Yg2BQfHs=
+		CMlwcM/SppXGquoXKUWRAIH72bY=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		m+HlOSQXESTfdAxFaP6iwNPsAUY=
+		ogQdQQ1nbR+DIiTp6z0E0Knzl3U=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		h2QLrFTY/d/8oqwqyp7uMRuSWSw=
+		gT53heDXvt38RXD62I92ZSxdmbw=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		m+HlOSQXESTfdAxFaP6iwNPsAUY=
+		ogQdQQ1nbR+DIiTp6z0E0Knzl3U=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		o2CEMdI5mzv6rrU27PLzw/0aF4Y=
+		7KRQrIYBI0DKf4IPvPjd8JmicEQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5s7P0AFvELF3xM99AaHk65HqeCgYKNrDfc9SvbI2EWw=
+			LkeqUj0d6wJI5SYjlXzuPSRHiqSdlqfOAt3qnGxinRk=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iWUxJGAC5On+L9rr5JMU/qSZ2jLoQAO76jRVyOzcoBQ=
+			6QDhTRMikKMhk0l0mkv5+FkayWxSAftD4ZVeYzNq6Ac=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uUw02bNWJXqJbVdM244G2UiIx/+qVwC0lLmwz2nYWX8=
+			pan00MpIF3+HYhHYij7wA260Kloq2K8LSvCVRL1RjjY=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iWUxJGAC5On+L9rr5JMU/qSZ2jLoQAO76jRVyOzcoBQ=
+			6QDhTRMikKMhk0l0mkv5+FkayWxSAftD4ZVeYzNq6Ac=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0CrYFh6X+eSnS0gR0i6mYhpfos8OmsI7qOrYp1I/Z3s=
+			xqQm6W7JVthh8z1LO57KDvJz1r88nffy3JX5mQPTpuI=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5s7P0AFvELF3xM99AaHk65HqeCgYKNrDfc9SvbI2EWw=
+			LkeqUj0d6wJI5SYjlXzuPSRHiqSdlqfOAt3qnGxinRk=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zvvA3In/TAAF+D/wRO98nkOHdablqHJhiRqtjKrvyVk=
+			rheYfKut11dkOAh7aYBOp0QPQ1FzEVTr4oyy9FB601w=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9I8uEChDUwKGAo666l3K8SzYAviYYBkmgjEGtDlztPo=
+			06Y2adyaujoMbcw/W1B7BLgjEy0mcGQv16BfCUjNbLE=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zvvA3In/TAAF+D/wRO98nkOHdablqHJhiRqtjKrvyVk=
+			rheYfKut11dkOAh7aYBOp0QPQ1FzEVTr4oyy9FB601w=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SNWCkMG2pZ/2IqDCJ3j0A5mIBnilJL8PkTpC3VKbowE=
+			eRF0mT/ElntxuuF8wt2d0T0pVkM1S1muoYB+e4d86GY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
