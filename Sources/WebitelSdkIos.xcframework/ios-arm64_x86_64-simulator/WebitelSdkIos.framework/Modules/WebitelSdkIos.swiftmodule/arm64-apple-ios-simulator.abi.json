@@ -2677,44 +2677,6 @@
           {
             "kind": "Function",
             "name": "downloadFile",
-            "printedName": "downloadFile(fileId:observer:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "StreamObserver",
-                "printedName": "WebitelSdkIos.StreamObserver",
-                "usr": "s:13WebitelSdkIos14StreamObserverV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13WebitelSdkIos6DialogP12downloadFile6fileId8observerySS_AA14StreamObserverVtF",
-            "mangledName": "$s13WebitelSdkIos6DialogP12downloadFile6fileId8observerySS_AA14StreamObserverVtF",
-            "moduleName": "WebitelSdkIos",
-            "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.Dialog>",
-            "sugared_genericSig": "<Self where Self : WebitelSdkIos.Dialog>",
-            "deprecated": true,
-            "protocolReq": true,
-            "declAttributes": [
-              "Available",
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "downloadFile",
             "printedName": "downloadFile(fileId:listener:)",
             "children": [
               {
@@ -9483,21 +9445,14 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/WebitelChat.swift",
       "kind": "IntegerLiteral",
-      "offset": 10445,
-      "length": 4,
-      "value": "5120"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/WebitelChat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23749,
+      "offset": 14944,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/WebitelChat.swift",
       "kind": "IntegerLiteral",
-      "offset": 37174,
+      "offset": 26939,
       "length": 1,
       "value": "1"
     },
@@ -12724,56 +12679,56 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13156,
+      "offset": 13195,
       "length": 14,
       "value": "\"MediaStorage\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13186,
+      "offset": 13225,
       "length": 29,
       "value": "\"webitel.portal.MediaStorage\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13533,
+      "offset": 13572,
       "length": 8,
       "value": "\"Upload\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13555,
+      "offset": 13594,
       "length": 37,
       "value": "\"\/webitel.portal.MediaStorage\/Upload\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13720,
+      "offset": 13759,
       "length": 12,
       "value": "\"UploadFile\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13746,
+      "offset": 13785,
       "length": 41,
       "value": "\"\/webitel.portal.MediaStorage\/UploadFile\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13905,
+      "offset": 13944,
       "length": 9,
       "value": "\"GetFile\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13928,
+      "offset": 13967,
       "length": 38,
       "value": "\"\/webitel.portal.MediaStorage\/GetFile\""
     },
@@ -13963,380 +13918,408 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7519,
+      "offset": 8045,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "Dictionary",
-      "offset": 8342,
+      "offset": 8868,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10568,
+      "offset": 11094,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 13507,
+      "offset": 14569,
       "length": 16,
       "value": "\"webitel.portal\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 13722,
+      "offset": 14784,
       "length": 12,
       "value": "\".InputFile\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 13798,
+      "offset": 14860,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 13814,
+      "offset": 14876,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 13827,
+      "offset": 14889,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 13843,
+      "offset": 14905,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 15265,
+      "offset": 16327,
       "length": 16,
       "value": "\".UploadRequest\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 15345,
+      "offset": 16407,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 15361,
+      "offset": 16423,
       "length": 5,
       "value": "\"pid\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 15373,
+      "offset": 16435,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 15389,
+      "offset": 16451,
       "length": 5,
       "value": "\"new\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 15401,
+      "offset": 16463,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 15417,
+      "offset": 16479,
       "length": 6,
       "value": "\"part\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 15430,
+      "offset": 16492,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 15446,
+      "offset": 16508,
       "length": 6,
       "value": "\"kill\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 18861,
+      "offset": 19923,
       "length": 8,
       "value": "\".Start\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 18933,
+      "offset": 19995,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 18949,
+      "offset": 20011,
       "length": 6,
       "value": "\"file\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 18962,
+      "offset": 20024,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 18978,
+      "offset": 20040,
       "length": 10,
       "value": "\"progress\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 20777,
+      "offset": 21839,
       "length": 8,
       "value": "\".Abort\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 21508,
+      "offset": 22570,
       "length": 17,
       "value": "\".UploadProgress\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 21589,
+      "offset": 22651,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 21605,
+      "offset": 22667,
       "length": 6,
       "value": "\"part\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 21618,
+      "offset": 22680,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 21634,
+      "offset": 22696,
       "length": 6,
       "value": "\"stat\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22709,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 24239,
+      "offset": 22725,
+      "length": 5,
+      "value": "\"end\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 25927,
       "length": 10,
       "value": "\".Partial\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 24313,
+      "offset": 26001,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 24329,
+      "offset": 26017,
       "length": 5,
       "value": "\"pid\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 24341,
+      "offset": 26029,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 24357,
+      "offset": 26045,
       "length": 6,
       "value": "\"size\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 25833,
+      "offset": 27521,
       "length": 11,
       "value": "\".Complete\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 25908,
+      "offset": 27596,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 25924,
+      "offset": 27612,
       "length": 6,
       "value": "\"file\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 25937,
+      "offset": 27625,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 25953,
+      "offset": 27641,
       "length": 6,
       "value": "\"hash\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 27888,
+      "offset": 29576,
       "length": 14,
       "value": "\".UploadMedia\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 27966,
+      "offset": 29654,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 27982,
+      "offset": 29670,
       "length": 6,
       "value": "\"file\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 27995,
+      "offset": 29683,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 28011,
+      "offset": 29699,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 30409,
+      "offset": 32097,
       "length": 17,
       "value": "\".GetFileRequest\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 30490,
+      "offset": 32178,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 30510,
+      "offset": 32198,
       "length": 9,
       "value": "\"file_id\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 30526,
+      "offset": 32214,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 30542,
+      "offset": 32230,
       "length": 8,
       "value": "\"offset\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 31986,
+      "offset": 33674,
       "length": 12,
       "value": "\".MediaFile\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 32062,
+      "offset": 33750,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 32078,
+      "offset": 33766,
       "length": 6,
       "value": "\"file\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 32091,
+      "offset": 33779,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
       "kind": "StringLiteral",
-      "offset": 32107,
+      "offset": 33795,
       "length": 6,
       "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33808,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/media.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 33824,
+      "length": 5,
+      "value": "\"end\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/portal\/Portal.swift",

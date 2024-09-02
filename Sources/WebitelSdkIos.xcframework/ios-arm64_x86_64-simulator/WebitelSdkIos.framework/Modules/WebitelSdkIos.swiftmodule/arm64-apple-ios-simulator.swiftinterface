@@ -98,8 +98,6 @@ public protocol Dialog {
   func getHistory(completion: @escaping (Swift.Result<[WebitelSdkIos.Message], Foundation.NSError>) -> Swift.Void)
   func getUpdates(params: WebitelSdkIos.RequestParams, completion: @escaping (Swift.Result<[WebitelSdkIos.Message], Foundation.NSError>) -> Swift.Void)
   func getUpdates(completion: @escaping (Swift.Result<[WebitelSdkIos.Message], Foundation.NSError>) -> Swift.Void)
-  @available(*, deprecated, message: "Use 'downloadFile(fileId: String, listener: DownloadLisener)->CancellationToken' insted")
-  func downloadFile(fileId: Swift.String, observer: WebitelSdkIos.StreamObserver)
   func downloadFile(fileId: Swift.String, listener: WebitelSdkIos.DownloadLisener) -> any WebitelSdkIos.CancellationToken
   func downloadFile(fileId: Swift.String, offset: Swift.Int64, listener: WebitelSdkIos.DownloadLisener) -> any WebitelSdkIos.CancellationToken
   func uploadFile(request: WebitelSdkIos.FileTransferRequest, completion: @escaping (Swift.Result<WebitelSdkIos.UploadResult, Foundation.NSError>) -> Swift.Void) -> any WebitelSdkIos.CancellationToken
