@@ -5654,6 +5654,26 @@
       },
       {
         "kind": "Import",
+        "name": "GRPC",
+        "printedName": "GRPC",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftProtobuf",
         "printedName": "SwiftProtobuf",
         "declKind": "Import",
@@ -9445,14 +9465,14 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/WebitelChat.swift",
       "kind": "IntegerLiteral",
-      "offset": 14944,
+      "offset": 15592,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/WebitelChat.swift",
       "kind": "IntegerLiteral",
-      "offset": 26939,
+      "offset": 27630,
       "length": 1,
       "value": "1"
     },
@@ -13375,6 +13395,104 @@
       "offset": 12037,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 211,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 255,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 5,
+      "value": "65536"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
+      "kind": "FloatLiteral",
+      "offset": 359,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 430,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 468,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 547,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 586,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
+      "kind": "Array",
+      "offset": 640,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 673,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6762,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
+      "kind": "StringLiteral",
+      "offset": 15652,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15678,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15713,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/account.pb.swift",

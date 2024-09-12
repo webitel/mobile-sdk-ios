@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Z6TsfZnMQ4wzbp3vHMTXwUfLUEY=
+		3Uetugu/XWdt2+YQ8Br0u+vwVNM=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		5MxLd4gwvkcofYHgXmYO8Fj1PiE=
+		YCSq+k9kbPkWUEdi6GbnYTvnzKo=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		svaeJ8RzTpZdz03nMd1Q/MMffIE=
+		jGjVRP2hTyuDNTR2dqVRDxO7OAM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,7 +65,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oWDvUmY5tNfvk/XYiq++Hwdm1LbkImaJiEL0wJY83rg=
+			ULP09C4yHQp2ULbreacOioKfGsu1OI5nmzT7ilbzulM=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UeaUs/Pf5VOkM0aEDPDKzH+9C46m/A21B75sRzKzjk0=
+			FXZsjYqCBckUzybJShsC6TSDWE7qFsR9tgBf/G0sM3c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
