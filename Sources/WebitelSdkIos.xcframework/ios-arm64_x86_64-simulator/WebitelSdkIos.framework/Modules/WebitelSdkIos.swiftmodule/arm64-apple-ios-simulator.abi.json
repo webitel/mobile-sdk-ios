@@ -13469,28 +13469,28 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
       "kind": "IntegerLiteral",
-      "offset": 6762,
+      "offset": 6423,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
       "kind": "StringLiteral",
-      "offset": 15652,
+      "offset": 15718,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
       "kind": "BooleanLiteral",
-      "offset": 15678,
+      "offset": 15744,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileUploader.swift",
       "kind": "BooleanLiteral",
-      "offset": 15713,
+      "offset": 15779,
       "length": 5,
       "value": "false"
     },
