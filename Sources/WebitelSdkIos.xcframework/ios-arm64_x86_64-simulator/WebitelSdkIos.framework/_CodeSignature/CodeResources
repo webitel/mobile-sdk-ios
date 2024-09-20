@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yzh/bhc3jcYXSb5UXUzdENyb9N8=
+		Gw6wO5R5NWFkicpmJ8TLWkdxifc=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Brd9t+U5chpDAUWfeAdEU4pc3Uw=
+		CzUZXbf/OvA5YcyIVIq37wIYuWk=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VKteYxOlLttRf1AyBuowsroPl2I=
+		S0LnhWJlhVx2nyToO+qXh/rwTyI=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Brd9t+U5chpDAUWfeAdEU4pc3Uw=
+		CzUZXbf/OvA5YcyIVIq37wIYuWk=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1rsCg5fZhW//++EDIM1DuewljKI=
+		bWZ5+U4mMl3soGe5vR/AlSom4ps=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L0Cb9STDqC8HFpXn3M1cGi3qygAcfKb++S0syZSAwCE=
+			dSCwroofhv79152BVmyz6QWa+tYhB4AiD9Jb984lyh8=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8n+OyZ7i54dGzApZTg08Jbw4anEk8RQpjDnZkqFBz3M=
+			9ukort6ycTOKEyN/jpo/TTv9l0XAi8NnlexoKNcUXuU=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L0Cb9STDqC8HFpXn3M1cGi3qygAcfKb++S0syZSAwCE=
+			dSCwroofhv79152BVmyz6QWa+tYhB4AiD9Jb984lyh8=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KQJLtLV+VsZiD24Kj7cx9zPGLOdRjLgW56Z/lc149Yg=
+			Jyy7B1sBJoIhIx3NkVnREzdRplzrOUrOvps9K3cviUo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

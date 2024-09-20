@@ -14517,14 +14517,14 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/grpc\/GrpcClient.swift",
       "kind": "StringLiteral",
-      "offset": 22484,
+      "offset": 22360,
       "length": 30,
       "value": "\"com.example.syncServiceQueue\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/grpc\/GrpcClient.swift",
       "kind": "StringLiteral",
-      "offset": 22572,
+      "offset": 22448,
       "length": 30,
       "value": "\"com.example.syncConnectQueue\""
     },
