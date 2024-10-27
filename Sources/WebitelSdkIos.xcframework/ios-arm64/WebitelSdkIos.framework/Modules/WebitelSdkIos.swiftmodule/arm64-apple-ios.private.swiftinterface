@@ -35,6 +35,9 @@ public struct Postback : Swift.Hashable {
   }
   @objc deinit
 }
+public protocol LogEventHandler {
+  func log(level: WebitelSdkIos.LogLevel, message: Swift.String, metadata: [Swift.String : Swift.String]?, source: Swift.String, file: Swift.String, function: Swift.String, line: Swift.UInt)
+}
 public enum PushTokenType {
   case apns, fcm
   public static func == (a: WebitelSdkIos.PushTokenType, b: WebitelSdkIos.PushTokenType) -> Swift.Bool
@@ -206,6 +209,8 @@ public class PortalClientBuilder {
   public func setVersion(_ value: Swift.String) -> Self
   public func setDeviceId(_ value: Swift.String) -> Self
   public func logLevel(_ value: WebitelSdkIos.LogLevel) -> Self
+  public func setLogHandler(_ value: any WebitelSdkIos.LogEventHandler) -> Self
+  public func setKeepAlive(interval: Swift.Int64, timeout: Swift.Int64) -> Self
   public func build() throws -> any WebitelSdkIos.PortalClient
   @objc deinit
 }
