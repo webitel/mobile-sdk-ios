@@ -14,6 +14,9 @@ public protocol ChatClient {
   func getServiceDialog(completion: @escaping (Swift.Result<any WebitelSdkIos.Dialog, Foundation.NSError>) -> Swift.Void)
 }
 public struct RequestParams {
+  public init(limit: Swift.Int32, offset: Swift.Int64? = nil)
+  public var limit: Swift.Int32
+  public var offset: Swift.Int64?
 }
 public struct Postback : Swift.Hashable {
   public let text: Swift.String
@@ -29,6 +32,7 @@ public struct Postback : Swift.Hashable {
   public class Builder {
     public init(stream: Foundation.InputStream, fileName: Swift.String, mimeType: Swift.String)
     convenience public init(stream: Foundation.InputStream, pid: Swift.String)
+    public func timeout(_ value: Foundation.TimeInterval) -> WebitelSdkIos.FileTransferRequest.Builder
     public func transferListener(listener: WebitelSdkIos.UploadListener) -> WebitelSdkIos.FileTransferRequest.Builder
     public func build() -> WebitelSdkIos.FileTransferRequest
     @objc deinit
@@ -37,6 +41,17 @@ public struct Postback : Swift.Hashable {
 }
 public protocol LogEventHandler {
   func log(level: WebitelSdkIos.LogLevel, message: Swift.String, metadata: [Swift.String : Swift.String]?, source: Swift.String, file: Swift.String, function: Swift.String, line: Swift.UInt)
+}
+@_hasMissingDesignatedInitializers public class FileDownloadRequest {
+  public class Builder {
+    public init(fileId: Swift.String, listener: WebitelSdkIos.DownloadLisener)
+    public func timeout(_ value: Foundation.TimeInterval) -> WebitelSdkIos.FileDownloadRequest.Builder
+    public func offset(_ value: Swift.Int64) -> WebitelSdkIos.FileDownloadRequest.Builder
+    public func transferListener(listener: WebitelSdkIos.DownloadLisener) -> WebitelSdkIos.FileDownloadRequest.Builder
+    public func build() -> WebitelSdkIos.FileDownloadRequest
+    @objc deinit
+  }
+  @objc deinit
 }
 public enum PushTokenType {
   case apns, fcm
@@ -103,6 +118,7 @@ public protocol Dialog {
   func getUpdates(completion: @escaping (Swift.Result<[WebitelSdkIos.Message], Foundation.NSError>) -> Swift.Void)
   func downloadFile(fileId: Swift.String, listener: WebitelSdkIos.DownloadLisener) -> any WebitelSdkIos.CancellationToken
   func downloadFile(fileId: Swift.String, offset: Swift.Int64, listener: WebitelSdkIos.DownloadLisener) -> any WebitelSdkIos.CancellationToken
+  func downloadFile(request: WebitelSdkIos.FileDownloadRequest) -> any WebitelSdkIos.CancellationToken
   func uploadFile(request: WebitelSdkIos.FileTransferRequest, completion: @escaping (Swift.Result<WebitelSdkIos.UploadResult, Foundation.NSError>) -> Swift.Void) -> any WebitelSdkIos.CancellationToken
   func addListener(listener: any WebitelSdkIos.DialogListener)
   func removeListener(listener: any WebitelSdkIos.DialogListener)
@@ -139,6 +155,10 @@ public class RequestParamsBuilder {
 }
 public struct UploadListener {
   public init(onStarted: @escaping (Swift.String) -> Swift.Void, onProgress: @escaping (Swift.Int64) -> Swift.Void, onCanceled: @escaping () -> Swift.Void)
+}
+public struct RequestOptions {
+  public init(timeout: Foundation.TimeInterval? = nil)
+  public var timeout: Foundation.TimeInterval?
 }
 public struct Message : Swift.Hashable {
   public let id: Swift.Int64
@@ -211,6 +231,7 @@ public class PortalClientBuilder {
   public func logLevel(_ value: WebitelSdkIos.LogLevel) -> Self
   public func setLogHandler(_ value: any WebitelSdkIos.LogEventHandler) -> Self
   public func setKeepAlive(interval: Swift.Int64, timeout: Swift.Int64) -> Self
+  public func setRequestOptions(options: WebitelSdkIos.RequestOptions) -> Self
   public func build() throws -> any WebitelSdkIos.PortalClient
   @objc deinit
 }
