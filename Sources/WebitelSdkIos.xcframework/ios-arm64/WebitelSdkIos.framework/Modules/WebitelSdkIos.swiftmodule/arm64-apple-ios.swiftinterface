@@ -194,6 +194,8 @@ public struct Message : Swift.Hashable {
   final public var sendId: Swift.String
   @objc deinit
 }
+public struct RateLimitInfo {
+}
 public struct UploadResult {
   public let file: WebitelSdkIos.File
   public let hash: [Swift.String : Swift.String]
@@ -235,9 +237,16 @@ public class PortalClientBuilder {
   public func build() throws -> any WebitelSdkIos.PortalClient
   @objc deinit
 }
-public class User {
-  public init(name: Swift.String)
-  @objc deinit
+public struct User {
+  public let iss: Swift.String
+  public let sub: Swift.String
+  public let name: Swift.String
+  public let email: Swift.String?
+  public let emailVerified: Swift.Bool
+  public let phoneNumber: Swift.String?
+  public let phoneNumberVerified: Swift.Bool
+  public let locale: Swift.String?
+  public init(iss: Swift.String, sub: Swift.String, name: Swift.String, email: Swift.String? = nil, emailVerified: Swift.Bool = false, phoneNumber: Swift.String? = nil, phoneNumberVerified: Swift.Bool = false, locale: Swift.String? = nil)
 }
 public struct File : Swift.Hashable {
   public let id: Swift.String
