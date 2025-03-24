@@ -6,15 +6,15 @@
 Webitel iOS SDK provides a convenient way to integrate chat functionality into your iOS applications. It supports user authentication, push notifications, real-time messaging via gRPC streams, and file transfers.
 
 
-## Features
+## Features  
 
-✅ **Authentication** (userLogin, userLogout)
-✅ **Push Notifications** (registerDevice)
-✅ **Real-Time Messaging** (chatClient)
-✅ **Connection Management** (openConnect, closeConnect)
-✅ **File Transfers** (uploadFile, downloadFile)
-✅ **Message History** (getHistory, getUpdates)
-✅ **Interactive Buttons** (sendPostback, replyMarkup) – supports **URL** buttons and **Postback** actions for interactive messaging.
+✅ **Authentication** (userLogin, userLogout)  
+✅ **Push Notifications** (registerDevice)  
+✅ **Real-Time Messaging** (chatClient)  
+✅ **Connection Management** (openConnect, closeConnect)  
+✅ **File Transfers** (uploadFile, downloadFile)  
+✅ **Message History** (getHistory, getUpdates)  
+✅ **Interactive Buttons** (sendPostback, replyMarkup) – supports **URL** buttons and **Postback** actions for interactive messaging.  
 
 
 ## Installation
