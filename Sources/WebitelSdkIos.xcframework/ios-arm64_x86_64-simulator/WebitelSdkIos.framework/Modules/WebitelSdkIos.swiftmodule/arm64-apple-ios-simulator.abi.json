@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "WebitelSdkIos",
+    "printedName": "WebitelSdkIos",
     "children": [
       {
         "kind": "Import",
@@ -130,6 +130,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -404,6 +420,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -682,6 +714,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -969,6 +1015,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           }
         ],
@@ -980,7 +1042,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1151,6 +1229,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1321,6 +1415,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           }
         ],
@@ -1331,7 +1441,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1568,6 +1694,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1813,6 +1953,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -1999,6 +2153,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -2216,6 +2384,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -2464,6 +2646,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -2701,6 +2897,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2784,6 +2996,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2900,6 +3128,22 @@
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3658,6 +3902,22 @@
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -3766,6 +4026,22 @@
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4171,6 +4447,9 @@
             "moduleName": "WebitelSdkIos",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -4212,6 +4491,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4414,6 +4707,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4553,6 +4862,22 @@
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4725,6 +5050,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5001,6 +5342,51 @@
                 "declKind": "Accessor",
                 "usr": "s:13WebitelSdkIos7MessageV10isIncomingSbvg",
                 "mangledName": "$s13WebitelSdkIos7MessageV10isIncomingSbvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "kind",
+            "printedName": "kind",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos7MessageV4kindSSvp",
+            "mangledName": "$s13WebitelSdkIos7MessageV4kindSSvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos7MessageV4kindSSvg",
+                "mangledName": "$s13WebitelSdkIos7MessageV4kindSSvg",
                 "moduleName": "WebitelSdkIos",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5387,6 +5773,33 @@
                   "RawDocComment"
                 ],
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "kind",
+                "printedName": "kind(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13WebitelSdkIos7MessageV7optionsC4kindyAEXDSSF",
+                "mangledName": "$s13WebitelSdkIos7MessageV7optionsC4kindyAEXDSSF",
+                "moduleName": "WebitelSdkIos",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
               }
             ],
             "declKind": "Class",
@@ -5396,6 +5809,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -5503,6 +5932,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -5648,7 +6091,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -5761,7 +6220,23 @@
           "Final",
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -5864,6 +6339,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6150,6 +6641,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6428,6 +6935,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -7329,6 +7850,22 @@
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -7614,6 +8151,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -8146,6 +8699,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -8501,6 +9070,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -8629,6 +9212,22 @@
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -8741,6 +9340,22 @@
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -8763,6 +9378,22 @@
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8817,6 +9448,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8897,6 +9544,22 @@
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8972,6 +9635,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -9012,6 +9689,7 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -9052,6 +9730,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIDevice",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -9065,6 +9744,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11004,191 +11697,9 @@
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3041,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3144,
-      "length": 3,
-      "value": "499"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3224,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3306,
-      "length": 3,
-      "value": "400"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3408,
-      "length": 3,
-      "value": "504"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3509,
-      "length": 3,
-      "value": "404"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3634,
-      "length": 3,
-      "value": "409"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3745,
-      "length": 3,
-      "value": "403"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3865,
-      "length": 3,
-      "value": "401"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4021,
-      "length": 3,
-      "value": "429"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4143,
-      "length": 3,
-      "value": "501"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4411,
-      "length": 3,
-      "value": "503"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4443,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3041,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3144,
-      "length": 3,
-      "value": "499"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3224,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3306,
-      "length": 3,
-      "value": "400"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3408,
-      "length": 3,
-      "value": "504"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3509,
-      "length": 3,
-      "value": "404"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3634,
-      "length": 3,
-      "value": "409"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3745,
-      "length": 3,
-      "value": "403"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3865,
-      "length": 3,
-      "value": "401"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4021,
-      "length": 3,
-      "value": "429"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4143,
-      "length": 3,
-      "value": "501"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4411,
-      "length": 3,
-      "value": "503"
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4443,
-      "length": 1,
-      "value": "-1"
-    },
-    {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/WebitelChat.swift",
       "kind": "IntegerLiteral",
-      "offset": 16233,
+      "offset": 16270,
       "length": 1,
       "value": "1"
     },
@@ -11226,13 +11737,6 @@
       "offset": 457,
       "length": 17,
       "value": "\"x-portal-access\""
-    },
-    {
-      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/grpc\/GrpcInterceptor.swift",
-      "kind": "StringLiteral",
-      "offset": 192,
-      "length": 15,
-      "value": "\"WebitelSdkIos.GrpcInterceptor\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileTransferManager.swift",
@@ -12756,532 +13260,553 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/domain\/Message.swift",
       "kind": "StringLiteral",
-      "offset": 996,
+      "offset": 1267,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/domain\/Message.swift",
       "kind": "StringLiteral",
-      "offset": 1053,
+      "offset": 1324,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/domain\/Message.swift",
+      "kind": "StringLiteral",
+      "offset": 1399,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5020,
+      "offset": 5291,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "BooleanLiteral",
-      "offset": 5542,
+      "offset": 5813,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "Array",
-      "offset": 5617,
+      "offset": 5888,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "Array",
-      "offset": 5981,
+      "offset": 6252,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 9615,
+      "offset": 9886,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10482,
+      "offset": 10753,
       "length": 14,
       "value": "\"webitel.chat\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10691,
+      "offset": 10962,
       "length": 10,
       "value": "\".Message\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10765,
+      "offset": 11036,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10781,
+      "offset": 11052,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10792,
+      "offset": 11063,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10808,
+      "offset": 11079,
       "length": 6,
       "value": "\"date\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10821,
+      "offset": 11092,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10837,
+      "offset": 11108,
       "length": 6,
       "value": "\"from\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10850,
+      "offset": 11121,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10866,
+      "offset": 11137,
       "length": 6,
       "value": "\"chat\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10879,
+      "offset": 11150,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10895,
+      "offset": 11166,
       "length": 8,
       "value": "\"sender\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10910,
+      "offset": 11181,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10926,
+      "offset": 11197,
       "length": 6,
       "value": "\"edit\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10939,
+      "offset": 11210,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 11227,
+      "length": 6,
+      "value": "\"kind\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11240,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10955,
+      "offset": 11256,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10968,
+      "offset": 11269,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10984,
+      "offset": 11285,
       "length": 6,
       "value": "\"file\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10997,
+      "offset": 11298,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11013,
+      "offset": 11314,
       "length": 9,
       "value": "\"context\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11029,
+      "offset": 11330,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11046,
+      "offset": 11347,
       "length": 10,
       "value": "\"keyboard\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11063,
+      "offset": 11364,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11080,
+      "offset": 11381,
       "length": 10,
       "value": "\"postback\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11155,
+      "offset": 11456,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11180,
+      "offset": 11481,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11327,
+      "offset": 11628,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "Dictionary",
-      "offset": 11448,
+      "offset": 11782,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17166,
+      "offset": 17806,
       "length": 7,
       "value": "\".File\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 17237,
+      "offset": 17877,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17253,
+      "offset": 17893,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 17264,
+      "offset": 17904,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17280,
+      "offset": 17920,
       "length": 6,
       "value": "\"size\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 17293,
+      "offset": 17933,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17309,
+      "offset": 17949,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 17322,
+      "offset": 17962,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17338,
+      "offset": 17978,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 19196,
+      "offset": 19836,
       "length": 14,
       "value": "\".ReplyMarkup\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 19274,
+      "offset": 19914,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 19294,
+      "offset": 19934,
       "length": 10,
       "value": "\"no_input\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 19311,
+      "offset": 19951,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 19327,
+      "offset": 19967,
       "length": 9,
       "value": "\"buttons\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 20774,
+      "offset": 21414,
       "length": 12,
       "value": "\".ButtonRow\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 20850,
+      "offset": 21490,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 20866,
+      "offset": 21506,
       "length": 5,
       "value": "\"row\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22036,
+      "offset": 22676,
       "length": 9,
       "value": "\".Button\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22109,
+      "offset": 22749,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22125,
+      "offset": 22765,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22138,
+      "offset": 22778,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22154,
+      "offset": 22794,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22166,
+      "offset": 22806,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22182,
+      "offset": 22822,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22195,
+      "offset": 22835,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22211,
+      "offset": 22851,
       "length": 7,
       "value": "\"share\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 24982,
+      "offset": 25622,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 24998,
+      "offset": 25638,
       "length": 7,
       "value": "\"phone\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 25012,
+      "offset": 25652,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 25028,
+      "offset": 25668,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 25042,
+      "offset": 25682,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 25058,
+      "offset": 25698,
       "length": 9,
       "value": "\"contact\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 25074,
+      "offset": 25714,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 25090,
+      "offset": 25730,
       "length": 10,
       "value": "\"location\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 25304,
+      "offset": 25944,
       "length": 11,
       "value": "\".Postback\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 25379,
+      "offset": 26019,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 25395,
+      "offset": 26035,
       "length": 5,
       "value": "\"mid\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 25407,
+      "offset": 26047,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 25423,
+      "offset": 26063,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 25436,
+      "offset": 26076,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 25452,
+      "offset": 26092,
       "length": 6,
       "value": "\"text\""
     },
@@ -13736,742 +14261,756 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 9855,
+      "offset": 10058,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "Array",
-      "offset": 11706,
+      "offset": 11909,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 15131,
+      "offset": 15334,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 15202,
+      "offset": 15405,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 16065,
+      "offset": 16268,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17239,
+      "offset": 17442,
       "length": 16,
       "value": "\"webitel.portal\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 17394,
+      "offset": 17597,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17410,
+      "offset": 17613,
       "length": 10,
       "value": "\"Outgoing\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 17427,
+      "offset": 17630,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17443,
+      "offset": 17646,
       "length": 10,
       "value": "\"Incoming\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17662,
+      "offset": 17865,
       "length": 14,
       "value": "\".ChatAccount\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 17740,
+      "offset": 17943,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17756,
+      "offset": 17959,
       "length": 6,
       "value": "\"user\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 19241,
+      "offset": 19444,
       "length": 7,
       "value": "\".Chat\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 19312,
+      "offset": 19515,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 19328,
+      "offset": 19531,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 19339,
+      "offset": 19542,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 19355,
+      "offset": 19558,
       "length": 6,
       "value": "\"date\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 19368,
+      "offset": 19571,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 19384,
+      "offset": 19587,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 19397,
+      "offset": 19600,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 19413,
+      "offset": 19616,
       "length": 6,
       "value": "\"join\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 19426,
+      "offset": 19629,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 19442,
+      "offset": 19645,
       "length": 6,
       "value": "\"peer\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 19455,
+      "offset": 19658,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 19471,
+      "offset": 19674,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 19485,
+      "offset": 19688,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 19501,
+      "offset": 19704,
       "length": 7,
       "value": "\"inbox\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 19515,
+      "offset": 19718,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 19532,
+      "offset": 19735,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22662,
+      "offset": 22865,
       "length": 21,
       "value": "\".ChatDialogsRequest\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22747,
+      "offset": 22950,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22763,
+      "offset": 22966,
       "length": 6,
       "value": "\"page\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22776,
+      "offset": 22979,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22792,
+      "offset": 22995,
       "length": 6,
       "value": "\"size\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22805,
+      "offset": 23008,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22821,
+      "offset": 23024,
       "length": 3,
       "value": "\"q\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22831,
+      "offset": 23034,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22847,
+      "offset": 23050,
       "length": 6,
       "value": "\"sort\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22860,
+      "offset": 23063,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22876,
+      "offset": 23079,
       "length": 8,
       "value": "\"fields\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22891,
+      "offset": 23094,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22907,
+      "offset": 23110,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22918,
+      "offset": 23121,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22934,
+      "offset": 23137,
       "length": 6,
       "value": "\"peer\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22947,
+      "offset": 23150,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22963,
+      "offset": 23166,
       "length": 6,
       "value": "\"date\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22976,
+      "offset": 23179,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22993,
+      "offset": 23196,
       "length": 8,
       "value": "\"online\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 26375,
+      "offset": 26578,
       "length": 11,
       "value": "\".ChatList\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 26450,
+      "offset": 26653,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 26466,
+      "offset": 26669,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 26479,
+      "offset": 26682,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 26495,
+      "offset": 26698,
       "length": 6,
       "value": "\"page\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 26508,
+      "offset": 26711,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 26524,
+      "offset": 26727,
       "length": 6,
       "value": "\"next\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 28176,
+      "offset": 28379,
       "length": 21,
       "value": "\".SendMessageRequest\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 28261,
+      "offset": 28464,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 28277,
+      "offset": 28480,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 28288,
+      "offset": 28491,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 28304,
+      "offset": 28507,
       "length": 6,
       "value": "\"peer\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 28317,
+      "offset": 28520,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 28536,
+      "length": 6,
+      "value": "\"kind\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28549,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 28333,
+      "offset": 28565,
       "length": 6,
       "value": "\"file\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 28346,
+      "offset": 28578,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 28362,
+      "offset": 28594,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 28375,
+      "offset": 28607,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 28391,
+      "offset": 28623,
       "length": 10,
       "value": "\"postback\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 30868,
+      "offset": 31335,
       "length": 21,
       "value": "\".ReadHistoryRequest\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 30953,
+      "offset": 31420,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 30969,
+      "offset": 31436,
       "length": 6,
       "value": "\"peer\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 30982,
+      "offset": 31449,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 31002,
+      "offset": 31469,
       "length": 8,
       "value": "\"max_id\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 32749,
+      "offset": 33216,
       "length": 19,
       "value": "\".UpdateNewMessage\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 32832,
+      "offset": 33299,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 32848,
+      "offset": 33315,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 32859,
+      "offset": 33326,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 32875,
+      "offset": 33342,
       "length": 7,
       "value": "\"dispo\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 32889,
+      "offset": 33356,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 32905,
+      "offset": 33372,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 34892,
+      "offset": 35359,
       "length": 19,
       "value": "\".UpdateChatMember\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 34975,
+      "offset": 35442,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 34991,
+      "offset": 35458,
       "length": 6,
       "value": "\"chat\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 35004,
+      "offset": 35471,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 35020,
+      "offset": 35487,
       "length": 6,
       "value": "\"join\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 36764,
+      "offset": 37231,
       "length": 19,
       "value": "\".UpdateLeftMember\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 36847,
+      "offset": 37314,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 36863,
+      "offset": 37330,
       "length": 6,
       "value": "\"chat\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 36876,
+      "offset": 37343,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 36892,
+      "offset": 37359,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 39710,
+      "offset": 40177,
       "length": 21,
       "value": "\".UpdateChatComplete\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 39795,
+      "offset": 40262,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 39811,
+      "offset": 40278,
       "length": 6,
       "value": "\"chat\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 39824,
+      "offset": 40291,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 39840,
+      "offset": 40307,
       "length": 6,
       "value": "\"from\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 42666,
+      "offset": 43133,
       "length": 25,
       "value": "\".UpdateReadHistoryInbox\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 42755,
+      "offset": 43222,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 42771,
+      "offset": 43238,
       "length": 6,
       "value": "\"peer\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 42784,
+      "offset": 43251,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 42804,
+      "offset": 43271,
       "length": 8,
       "value": "\"max_id\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 42819,
+      "offset": 43286,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 42835,
+      "offset": 43302,
       "length": 7,
       "value": "\"inbox\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 44830,
+      "offset": 45297,
       "length": 26,
       "value": "\".UpdateReadHistoryOutbox\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 44920,
+      "offset": 45387,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 44936,
+      "offset": 45403,
       "length": 6,
       "value": "\"peer\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 44949,
+      "offset": 45416,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/messages.pb.swift",
       "kind": "StringLiteral",
-      "offset": 44969,
+      "offset": 45436,
       "length": 8,
       "value": "\"max_id\""
     },
