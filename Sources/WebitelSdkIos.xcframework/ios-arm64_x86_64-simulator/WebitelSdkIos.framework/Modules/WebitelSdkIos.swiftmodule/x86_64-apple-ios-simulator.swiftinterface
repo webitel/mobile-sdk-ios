@@ -15,9 +15,10 @@ public protocol ChatClient {
   func getServiceDialog(completion: @escaping (Swift.Result<any WebitelSdkIos.Dialog, Foundation.NSError>) -> Swift.Void)
 }
 public struct RequestParams {
-  public init(limit: Swift.Int32, offset: Swift.Int64? = nil)
+  public init(limit: Swift.Int32 = 50, offset: Swift.Int64? = nil, excludeKinds: [Swift.String]? = nil)
   public var limit: Swift.Int32
   public var offset: Swift.Int64?
+  public var excludeKinds: [Swift.String]?
 }
 public struct Postback : Swift.Hashable {
   public let text: Swift.String
@@ -269,8 +270,6 @@ public struct DownloadLisener {
 public struct UserSession {
   public let isChatAvailable: Swift.Bool
   public let isVoiceAvailable: Swift.Bool
-}
-public protocol VoiceClient {
 }
 public protocol DialogListener : AnyObject {
   func onNewMessage(_ message: WebitelSdkIos.Message)

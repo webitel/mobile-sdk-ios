@@ -176,7 +176,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(limit:offset:)",
+            "printedName": "init(limit:offset:excludeKinds:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -188,6 +188,7 @@
                 "kind": "TypeNominal",
                 "name": "Int32",
                 "printedName": "Swift.Int32",
+                "hasDefaultArg": true,
                 "usr": "s:s5Int32V"
               },
               {
@@ -204,14 +205,38 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13WebitelSdkIos13RequestParamsV5limit6offsetACs5Int32V_s5Int64VSgtcfc",
-            "mangledName": "$s13WebitelSdkIos13RequestParamsV5limit6offsetACs5Int32V_s5Int64VSgtcfc",
+            "usr": "s:13WebitelSdkIos13RequestParamsV5limit6offset12excludeKindsACs5Int32V_s5Int64VSgSaySSGSgtcfc",
+            "mangledName": "$s13WebitelSdkIos13RequestParamsV5limit6offset12excludeKindsACs5Int32V_s5Int64VSgSaySSGSgtcfc",
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -406,6 +431,141 @@
                 "declKind": "Accessor",
                 "usr": "s:13WebitelSdkIos13RequestParamsV6offsets5Int64VSgvM",
                 "mangledName": "$s13WebitelSdkIos13RequestParamsV6offsets5Int64VSgvM",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "excludeKinds",
+            "printedName": "excludeKinds",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos13RequestParamsV12excludeKindsSaySSGSgvp",
+            "mangledName": "$s13WebitelSdkIos13RequestParamsV12excludeKindsSaySSGSgvp",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos13RequestParamsV12excludeKindsSaySSGSgvg",
+                "mangledName": "$s13WebitelSdkIos13RequestParamsV12excludeKindsSaySSGSgvg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos13RequestParamsV12excludeKindsSaySSGSgvs",
+                "mangledName": "$s13WebitelSdkIos13RequestParamsV12excludeKindsSaySSGSgvs",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos13RequestParamsV12excludeKindsSaySSGSgvM",
+                "mangledName": "$s13WebitelSdkIos13RequestParamsV12excludeKindsSaySSGSgvM",
                 "moduleName": "WebitelSdkIos",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -9370,44 +9530,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "VoiceClient",
-        "printedName": "VoiceClient",
-        "declKind": "Protocol",
-        "usr": "s:13WebitelSdkIos11VoiceClientP",
-        "mangledName": "$s13WebitelSdkIos11VoiceClientP",
-        "moduleName": "WebitelSdkIos",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "WebitelSdkIos",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "DialogListener",
         "printedName": "DialogListener",
         "children": [
@@ -11564,6 +11686,13 @@
       "value": "\"com.webitel.RequestQueue\""
     },
     {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/domain\/RequestParams.swift",
+      "kind": "IntegerLiteral",
+      "offset": 898,
+      "length": 2,
+      "value": "50"
+    },
+    {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/repository\/DeviceStorage.swift",
       "kind": "StringLiteral",
       "offset": 165,
@@ -11699,7 +11828,7 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/WebitelChat.swift",
       "kind": "IntegerLiteral",
-      "offset": 16270,
+      "offset": 16374,
       "length": 1,
       "value": "1"
     },
@@ -12945,226 +13074,268 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 4205,
+      "offset": 4650,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 4301,
+      "offset": 4746,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
+      "kind": "Array",
+      "offset": 5295,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 4950,
+      "offset": 5917,
       "length": 14,
       "value": "\"webitel.chat\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5164,
+      "offset": 6131,
       "length": 15,
       "value": "\".ChatMessages\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5243,
+      "offset": 6210,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5259,
+      "offset": 6226,
       "length": 10,
       "value": "\"messages\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5276,
+      "offset": 6243,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5292,
+      "offset": 6259,
       "length": 7,
       "value": "\"chats\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5306,
+      "offset": 6273,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5322,
+      "offset": 6289,
       "length": 7,
       "value": "\"peers\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5336,
+      "offset": 6303,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5352,
+      "offset": 6319,
       "length": 6,
       "value": "\"page\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5365,
+      "offset": 6332,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5381,
+      "offset": 6348,
       "length": 6,
       "value": "\"next\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7540,
+      "offset": 8507,
       "length": 22,
       "value": "\".ChatMessagesRequest\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7626,
+      "offset": 8593,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7642,
+      "offset": 8609,
       "length": 8,
       "value": "\"offset\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7657,
+      "offset": 8624,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7673,
+      "offset": 8640,
       "length": 7,
       "value": "\"limit\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7687,
+      "offset": 8654,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7703,
+      "offset": 8670,
       "length": 3,
       "value": "\"q\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7713,
+      "offset": 8680,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7729,
+      "offset": 8696,
       "length": 8,
       "value": "\"fields\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7744,
+      "offset": 8711,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7764,
+      "offset": 8731,
       "length": 9,
       "value": "\"chat_id\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7780,
+      "offset": 8747,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7796,
+      "offset": 8763,
       "length": 6,
       "value": "\"peer\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8776,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11155,
+      "offset": 8793,
+      "length": 9,
+      "value": "\"exclude\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 12411,
       "length": 9,
       "value": "\".Offset\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11228,
+      "offset": 12484,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11244,
+      "offset": 12500,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11255,
+      "offset": 12511,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11271,
+      "offset": 12527,
       "length": 6,
       "value": "\"date\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 13962,
+      "length": 23,
+      "value": "\".FilterMessageExclude\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14049,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/history.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 14065,
+      "length": 6,
+      "value": "\"kind\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/peer.pb.swift",
@@ -13281,532 +13452,532 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5291,
+      "offset": 5292,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "BooleanLiteral",
-      "offset": 5813,
+      "offset": 5814,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "Array",
-      "offset": 5888,
+      "offset": 5889,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "Array",
-      "offset": 6252,
+      "offset": 6253,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 9886,
+      "offset": 9887,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10753,
+      "offset": 10754,
       "length": 14,
       "value": "\"webitel.chat\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10962,
+      "offset": 10963,
       "length": 10,
       "value": "\".Message\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11036,
+      "offset": 11037,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11052,
+      "offset": 11053,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11063,
+      "offset": 11064,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11079,
+      "offset": 11080,
       "length": 6,
       "value": "\"date\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11092,
+      "offset": 11093,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11108,
+      "offset": 11109,
       "length": 6,
       "value": "\"from\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11121,
+      "offset": 11122,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11137,
+      "offset": 11138,
       "length": 6,
       "value": "\"chat\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11150,
+      "offset": 11151,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11166,
+      "offset": 11167,
       "length": 8,
       "value": "\"sender\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11181,
+      "offset": 11182,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11197,
+      "offset": 11198,
       "length": 6,
       "value": "\"edit\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11210,
+      "offset": 11211,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11227,
+      "offset": 11228,
       "length": 6,
       "value": "\"kind\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11240,
+      "offset": 11241,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11256,
+      "offset": 11257,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11269,
+      "offset": 11270,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11285,
+      "offset": 11286,
       "length": 6,
       "value": "\"file\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11298,
+      "offset": 11299,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11314,
+      "offset": 11315,
       "length": 9,
       "value": "\"context\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11330,
+      "offset": 11331,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11347,
+      "offset": 11348,
       "length": 10,
       "value": "\"keyboard\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11364,
+      "offset": 11365,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11381,
+      "offset": 11382,
       "length": 10,
       "value": "\"postback\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11456,
+      "offset": 11457,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11481,
+      "offset": 11482,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11628,
+      "offset": 11629,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "Dictionary",
-      "offset": 11782,
+      "offset": 11783,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17806,
+      "offset": 17807,
       "length": 7,
       "value": "\".File\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 17877,
+      "offset": 17878,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17893,
+      "offset": 17894,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 17904,
+      "offset": 17905,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17920,
+      "offset": 17921,
       "length": 6,
       "value": "\"size\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 17933,
+      "offset": 17934,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17949,
+      "offset": 17950,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 17962,
+      "offset": 17963,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17978,
+      "offset": 17979,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 19836,
+      "offset": 19837,
       "length": 14,
       "value": "\".ReplyMarkup\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 19914,
+      "offset": 19915,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 19934,
+      "offset": 19935,
       "length": 10,
       "value": "\"no_input\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 19951,
+      "offset": 19952,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 19967,
+      "offset": 19968,
       "length": 9,
       "value": "\"buttons\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 21414,
+      "offset": 21415,
       "length": 12,
       "value": "\".ButtonRow\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 21490,
+      "offset": 21491,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 21506,
+      "offset": 21507,
       "length": 5,
       "value": "\"row\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22676,
+      "offset": 22677,
       "length": 9,
       "value": "\".Button\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22749,
+      "offset": 22750,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22765,
+      "offset": 22766,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22778,
+      "offset": 22779,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22794,
+      "offset": 22795,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22806,
+      "offset": 22807,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22822,
+      "offset": 22823,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 22835,
+      "offset": 22836,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 22851,
+      "offset": 22852,
       "length": 7,
       "value": "\"share\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 25622,
+      "offset": 25623,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 25638,
+      "offset": 25639,
       "length": 7,
       "value": "\"phone\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 25652,
+      "offset": 25653,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 25668,
+      "offset": 25669,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 25682,
+      "offset": 25683,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 25698,
+      "offset": 25699,
       "length": 9,
       "value": "\"contact\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 25714,
+      "offset": 25715,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 25730,
+      "offset": 25731,
       "length": 10,
       "value": "\"location\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 25944,
+      "offset": 25945,
       "length": 11,
       "value": "\".Postback\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 26019,
+      "offset": 26020,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 26035,
+      "offset": 26036,
       "length": 5,
       "value": "\"mid\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 26047,
+      "offset": 26048,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 26063,
+      "offset": 26064,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 26076,
+      "offset": 26077,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
       "kind": "StringLiteral",
-      "offset": 26092,
+      "offset": 26093,
       "length": 6,
       "value": "\"text\""
     },
