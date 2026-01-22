@@ -16,6 +16,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -925,6 +935,230 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "Transport",
+        "printedName": "Transport",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "grpc",
+            "printedName": "grpc",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebitelSdkIos.Transport.Type) -> WebitelSdkIos.Transport",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Transport",
+                    "printedName": "WebitelSdkIos.Transport",
+                    "usr": "s:13WebitelSdkIos9TransportO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WebitelSdkIos.Transport.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Transport",
+                        "printedName": "WebitelSdkIos.Transport",
+                        "usr": "s:13WebitelSdkIos9TransportO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WebitelSdkIos9TransportO4grpcyA2CmF",
+            "mangledName": "$s13WebitelSdkIos9TransportO4grpcyA2CmF",
+            "moduleName": "WebitelSdkIos"
+          },
+          {
+            "kind": "Var",
+            "name": "webSocket",
+            "printedName": "webSocket",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebitelSdkIos.Transport.Type) -> WebitelSdkIos.Transport",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Transport",
+                    "printedName": "WebitelSdkIos.Transport",
+                    "usr": "s:13WebitelSdkIos9TransportO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WebitelSdkIos.Transport.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Transport",
+                        "printedName": "WebitelSdkIos.Transport",
+                        "usr": "s:13WebitelSdkIos9TransportO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13WebitelSdkIos9TransportO9webSocketyA2CmF",
+            "mangledName": "$s13WebitelSdkIos9TransportO9webSocketyA2CmF",
+            "moduleName": "WebitelSdkIos"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Transport",
+                "printedName": "WebitelSdkIos.Transport",
+                "usr": "s:13WebitelSdkIos9TransportO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Transport",
+                "printedName": "WebitelSdkIos.Transport",
+                "usr": "s:13WebitelSdkIos9TransportO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos9TransportO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13WebitelSdkIos9TransportO2eeoiySbAC_ACtFZ",
+            "moduleName": "WebitelSdkIos",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13WebitelSdkIos9TransportO9hashValueSivp",
+            "mangledName": "$s13WebitelSdkIos9TransportO9hashValueSivp",
+            "moduleName": "WebitelSdkIos",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13WebitelSdkIos9TransportO9hashValueSivg",
+                "mangledName": "$s13WebitelSdkIos9TransportO9hashValueSivg",
+                "moduleName": "WebitelSdkIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos9TransportO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13WebitelSdkIos9TransportO4hash4intoys6HasherVz_tF",
+            "moduleName": "WebitelSdkIos",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13WebitelSdkIos9TransportO",
+        "mangledName": "$s13WebitelSdkIos9TransportO",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "GRPC",
         "printedName": "GRPC",
@@ -1277,6 +1511,26 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "WebitelSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -2832,6 +3086,16 @@
             "usr": "s:SQ",
             "mangledName": "$sSQ"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -6410,6 +6674,36 @@
       },
       {
         "kind": "Import",
+        "name": "GRPC",
+        "printedName": "GRPC",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftProtobuf",
+        "printedName": "SwiftProtobuf",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftProtobuf",
         "printedName": "SwiftProtobuf",
         "declKind": "Import",
@@ -7207,6 +7501,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Logging",
         "printedName": "Logging",
         "declKind": "Import",
@@ -7237,6 +7541,36 @@
       },
       {
         "kind": "Import",
+        "name": "GRPC",
+        "printedName": "GRPC",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftProtobuf",
         "printedName": "SwiftProtobuf",
         "declKind": "Import",
@@ -7333,6 +7667,16 @@
         "moduleName": "WebitelSdkIos",
         "declAttributes": [
           "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -8273,6 +8617,27 @@
             "declKind": "Func",
             "usr": "s:13WebitelSdkIos19PortalClientBuilderC17setRequestOptions7optionsACXDAA0hI0V_tF",
             "mangledName": "$s13WebitelSdkIos19PortalClientBuilderC17setRequestOptions7optionsACXDAA0hI0V_tF",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "useWebSocket",
+            "printedName": "useWebSocket()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos19PortalClientBuilderC12useWebSocketACXDyF",
+            "mangledName": "$s13WebitelSdkIos19PortalClientBuilderC12useWebSocketACXDyF",
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
               "AccessControl",
@@ -9269,6 +9634,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "DownloadLisener",
         "printedName": "DownloadLisener",
@@ -9782,6 +10157,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -9935,6 +10317,13 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/UploadContext.swift",
+      "kind": "BooleanLiteral",
+      "offset": 194,
+      "length": 5,
+      "value": "false"
+    },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/SystemDetails.swift",
       "kind": "StringLiteral",
@@ -11702,133 +12091,133 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1808,
+      "offset": 2148,
       "length": 15,
       "value": "\"WebitelSdkIos\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1839,
+      "offset": 2179,
       "length": 3,
       "value": "408"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1903,
+      "offset": 2243,
       "length": 24,
       "value": "\"The request timed out.\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1941,
+      "offset": 2281,
       "length": 17,
       "value": "\"isCustomTimeout\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "BooleanLiteral",
-      "offset": 1960,
+      "offset": 2300,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3041,
+      "offset": 3381,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3144,
+      "offset": 3484,
       "length": 3,
       "value": "499"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3224,
+      "offset": 3564,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3306,
+      "offset": 3646,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3408,
+      "offset": 3748,
       "length": 3,
       "value": "504"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3509,
+      "offset": 3849,
       "length": 3,
       "value": "404"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3634,
+      "offset": 3974,
       "length": 3,
       "value": "409"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3745,
+      "offset": 4085,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3865,
+      "offset": 4205,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 4021,
+      "offset": 4361,
       "length": 3,
       "value": "429"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 4143,
+      "offset": 4483,
       "length": 3,
       "value": "501"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 4411,
+      "offset": 4751,
       "length": 3,
       "value": "503"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 4443,
+      "offset": 4783,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/WebitelChat.swift",
       "kind": "IntegerLiteral",
-      "offset": 16374,
+      "offset": 16390,
       "length": 1,
       "value": "1"
     },
@@ -11884,63 +12273,63 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/UploadTask.swift",
       "kind": "BooleanLiteral",
-      "offset": 341,
+      "offset": 345,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/UploadTask.swift",
       "kind": "BooleanLiteral",
-      "offset": 380,
+      "offset": 384,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/UploadTask.swift",
       "kind": "IntegerLiteral",
-      "offset": 425,
+      "offset": 429,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/UploadTask.swift",
       "kind": "IntegerLiteral",
-      "offset": 463,
+      "offset": 467,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/UploadTask.swift",
       "kind": "IntegerLiteral",
-      "offset": 506,
+      "offset": 510,
       "length": 4,
       "value": "2048"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/UploadTask.swift",
       "kind": "IntegerLiteral",
-      "offset": 550,
+      "offset": 554,
       "length": 4,
       "value": "2048"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/UploadTask.swift",
       "kind": "IntegerLiteral",
-      "offset": 594,
+      "offset": 598,
       "length": 5,
       "value": "65536"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/UploadTask.swift",
       "kind": "FloatLiteral",
-      "offset": 659,
+      "offset": 663,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/UploadTask.swift",
       "kind": "StringLiteral",
-      "offset": 774,
+      "offset": 778,
       "length": 24,
       "value": "\"com.webitel.UploadTask\""
     },
@@ -11982,14 +12371,14 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/DownloadTask.swift",
       "kind": "BooleanLiteral",
-      "offset": 460,
+      "offset": 464,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/DownloadTask.swift",
       "kind": "IntegerLiteral",
-      "offset": 607,
+      "offset": 611,
       "length": 1,
       "value": "1"
     },
@@ -13448,6 +13837,48 @@
       "offset": 1399,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/WebSocketClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 531,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/WebSocketClient.swift",
+      "kind": "StringLiteral",
+      "offset": 977,
+      "length": 12,
+      "value": "\"\/portal\/ws\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/WebSocketClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1019,
+      "length": 19,
+      "value": "\"\/api\/portal\/token\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/WebSocketClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1069,
+      "length": 20,
+      "value": "\"\/api\/portal\/logout\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/WebSocketClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1127,
+      "length": 20,
+      "value": "\"\/api\/portal\/device\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/WebSocketClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1209,
+      "length": 34,
+      "value": "\"com.webitel.wss.syncConnectQueue\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/chat\/messages\/message.pb.swift",
@@ -15676,6 +16107,41 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/FileTransferHTTP.swift",
+      "kind": "Dictionary",
+      "offset": 365,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/FileTransferHTTP.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 15,
+      "value": "\"\/portal\/files\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/FileTransferHTTP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 459,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/FileTransferHTTP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 464,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/FileTransferHTTP.swift",
+      "kind": "StringLiteral",
+      "offset": 671,
+      "length": 31,
+      "value": "\"com.webitel.upload.task.queue\""
+    },
+    {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/proto_out\/portal\/auth.pb.swift",
       "kind": "Array",
       "offset": 1630,
@@ -17029,28 +17495,28 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/grpc\/GrpcClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 807,
+      "offset": 823,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/grpc\/GrpcClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1109,
+      "offset": 1125,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/grpc\/GrpcClient.swift",
       "kind": "StringLiteral",
-      "offset": 19517,
+      "offset": 17212,
       "length": 30,
       "value": "\"com.example.syncServiceQueue\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/grpc\/GrpcClient.swift",
       "kind": "StringLiteral",
-      "offset": 19605,
+      "offset": 17300,
       "length": 30,
       "value": "\"com.example.syncConnectQueue\""
     },
@@ -17107,6 +17573,13 @@
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/domain\/User.swift",
       "kind": "BooleanLiteral",
       "offset": 2043,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/DownloadContext.swift",
+      "kind": "BooleanLiteral",
+      "offset": 190,
       "length": 5,
       "value": "false"
     }

@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name WebitelSdkIos
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WebitelSdkIos
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import Foundation
 import Swift
 import UIKit
@@ -12,10 +12,14 @@ extension UIKit.UIDevice {
   @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
 }
 public protocol ChatClient {
+  #if compiler(>=5.3) && $NonescapableTypes
   func getServiceDialog(completion: @escaping (Swift.Result<any WebitelSdkIos.Dialog, Foundation.NSError>) -> Swift.Void)
+  #endif
 }
 public struct RequestParams {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(limit: Swift.Int32 = 50, offset: Swift.Int64? = nil, excludeKinds: [Swift.String]? = nil)
+  #endif
   public var limit: Swift.Int32
   public var offset: Swift.Int64?
   public var excludeKinds: [Swift.String]?
@@ -24,8 +28,17 @@ public struct Postback : Swift.Hashable {
   public let text: Swift.String
   public let mid: Swift.Int64
   public let code: Swift.String
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WebitelSdkIos.Postback, b: WebitelSdkIos.Postback) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum Transport {
+  case grpc
+  case webSocket
+  public static func == (a: WebitelSdkIos.Transport, b: WebitelSdkIos.Transport) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -42,7 +55,9 @@ public struct Postback : Swift.Hashable {
   @objc deinit
 }
 public protocol LogEventHandler {
+  #if compiler(>=5.3) && $NonescapableTypes
   func log(level: WebitelSdkIos.LogLevel, message: Swift.String, metadata: [Swift.String : Swift.String]?, source: Swift.String, file: Swift.String, function: Swift.String, line: Swift.UInt)
+  #endif
 }
 @_hasMissingDesignatedInitializers public class FileDownloadRequest {
   public class Builder {
@@ -66,16 +81,16 @@ public enum PushTokenType {
 public struct ReplyMarkup : Swift.Hashable {
   public let noInput: Swift.Bool
   public let rows: [WebitelSdkIos.ButtonRow]
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WebitelSdkIos.ReplyMarkup, b: WebitelSdkIos.ReplyMarkup) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
 }
 public struct ButtonRow : Swift.Hashable {
   public let buttons: [WebitelSdkIos.Button]
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WebitelSdkIos.ButtonRow, b: WebitelSdkIos.ButtonRow) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -83,8 +98,8 @@ public struct ButtonRow : Swift.Hashable {
 public struct Button : Swift.Hashable {
   public let text: Swift.String
   public let type: WebitelSdkIos.ButtonType
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WebitelSdkIos.Button, b: WebitelSdkIos.Button) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -92,8 +107,8 @@ public struct Button : Swift.Hashable {
 public enum ButtonType : Swift.Hashable {
   case Url(url: Swift.String)
   case Postback(code: Swift.String)
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WebitelSdkIos.ButtonType, b: WebitelSdkIos.ButtonType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -113,19 +128,33 @@ public struct MediaUploadListener {
 public protocol Dialog {
   var id: Swift.String { get }
   var title: Swift.String { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   func sendMessage(options: WebitelSdkIos.Message.options, completion: @escaping (Swift.Result<WebitelSdkIos.Message, Foundation.NSError>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func getHistory(params: WebitelSdkIos.RequestParams, completion: @escaping (Swift.Result<[WebitelSdkIos.Message], Foundation.NSError>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func getHistory(completion: @escaping (Swift.Result<[WebitelSdkIos.Message], Foundation.NSError>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func getUpdates(params: WebitelSdkIos.RequestParams, completion: @escaping (Swift.Result<[WebitelSdkIos.Message], Foundation.NSError>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func getUpdates(completion: @escaping (Swift.Result<[WebitelSdkIos.Message], Foundation.NSError>) -> Swift.Void)
+  #endif
   func downloadFile(fileId: Swift.String, listener: WebitelSdkIos.DownloadLisener) -> any WebitelSdkIos.CancellationToken
   func downloadFile(fileId: Swift.String, offset: Swift.Int64, listener: WebitelSdkIos.DownloadLisener) -> any WebitelSdkIos.CancellationToken
   func downloadFile(request: WebitelSdkIos.FileDownloadRequest) -> any WebitelSdkIos.CancellationToken
+  #if compiler(>=5.3) && $NonescapableTypes
   func uploadFile(request: WebitelSdkIos.FileTransferRequest, completion: @escaping (Swift.Result<WebitelSdkIos.UploadResult, Foundation.NSError>) -> Swift.Void) -> any WebitelSdkIos.CancellationToken
+  #endif
   func addListener(listener: any WebitelSdkIos.DialogListener)
   func removeListener(listener: any WebitelSdkIos.DialogListener)
   func removeAllListeners()
+  #if compiler(>=5.3) && $NonescapableTypes
   func sendPostback(params: WebitelSdkIos.PostbackParams, completion: @escaping (Swift.Result<WebitelSdkIos.Message, Foundation.NSError>) -> Swift.Void)
+  #endif
 }
 public struct StreamObserver {
   public init(onNext: @escaping (Foundation.Data) -> Swift.Void, onCompleted: @escaping () -> Swift.Void, onFailed: @escaping (Foundation.NSError) -> Swift.Void)
@@ -138,7 +167,9 @@ public enum LogLevel : Swift.String, Swift.Codable, Swift.CaseIterable {
   case warning
   case error
   case critical
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [WebitelSdkIos.LogLevel]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [WebitelSdkIos.LogLevel] {
@@ -159,7 +190,9 @@ public struct UploadListener {
   public init(onStarted: @escaping (Swift.String) -> Swift.Void, onProgress: @escaping (Swift.Int64) -> Swift.Void, onCanceled: @escaping () -> Swift.Void)
 }
 public struct RequestOptions {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(timeout: Foundation.TimeInterval? = nil)
+  #endif
   public var timeout: Foundation.TimeInterval?
 }
 public struct Message : Swift.Hashable {
@@ -182,8 +215,8 @@ public struct Message : Swift.Hashable {
     public func kind(_ kind: Swift.String) -> Self
     @objc deinit
   }
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WebitelSdkIos.Message, b: WebitelSdkIos.Message) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -208,21 +241,33 @@ public struct Member : Swift.Hashable {
   public let id: Swift.String
   public let name: Swift.String
   public let type: Swift.String
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WebitelSdkIos.Member, b: WebitelSdkIos.Member) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
 }
 public protocol PortalClient {
   var chatClient: any WebitelSdkIos.ChatClient { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   func userLogin(user: WebitelSdkIos.User, completion: @escaping (Swift.Result<WebitelSdkIos.UserSession, Foundation.NSError>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func userLogout(completion: @escaping (Swift.Result<Swift.Void, Foundation.NSError>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func getUserSession(completion: @escaping (Swift.Result<WebitelSdkIos.UserSession, Foundation.NSError>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func registerDevice(pushToken: Swift.String, completion: @escaping (Swift.Result<Swift.Void, Foundation.NSError>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func registerDevice(pushToken: Swift.String, pushTokenType: WebitelSdkIos.PushTokenType, completion: @escaping (Swift.Result<Swift.Void, Foundation.NSError>) -> Swift.Void)
+  #endif
   func setAccessToken(token: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   func setAccessToken(token: Swift.String, completion: @escaping (Swift.Result<Swift.Void, Foundation.NSError>) -> Swift.Void)
+  #endif
   func getConnectState() -> WebitelSdkIos.ConnectState
   func addConnectListener(listener: any WebitelSdkIos.ConnectListener)
   func removeConnectListener(listener: any WebitelSdkIos.ConnectListener)
@@ -238,6 +283,7 @@ public class PortalClientBuilder {
   public func setLogHandler(_ value: any WebitelSdkIos.LogEventHandler) -> Self
   public func setKeepAlive(interval: Swift.Int64, timeout: Swift.Int64) -> Self
   public func setRequestOptions(options: WebitelSdkIos.RequestOptions) -> Self
+  public func useWebSocket() -> Self
   public func build() throws -> any WebitelSdkIos.PortalClient
   @objc deinit
 }
@@ -250,7 +296,9 @@ public struct User {
   public let phoneNumber: Swift.String?
   public let phoneNumberVerified: Swift.Bool
   public let locale: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(iss: Swift.String, sub: Swift.String, name: Swift.String, email: Swift.String? = nil, emailVerified: Swift.Bool = false, phoneNumber: Swift.String? = nil, phoneNumberVerified: Swift.Bool = false, locale: Swift.String? = nil)
+  #endif
 }
 public struct File : Swift.Hashable {
   public let id: Swift.String
@@ -258,8 +306,8 @@ public struct File : Swift.Hashable {
   public let type: Swift.String
   public let size: Swift.Int64
   public init(id: Swift.String, fileName: Swift.String, type: Swift.String, size: Swift.Int64)
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WebitelSdkIos.File, b: WebitelSdkIos.File) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -281,6 +329,8 @@ public protocol CancellationToken {
 public enum InvalidStateException : Swift.Error {
   case invalidState(message: Swift.String)
 }
+extension WebitelSdkIos.Transport : Swift.Equatable {}
+extension WebitelSdkIos.Transport : Swift.Hashable {}
 extension WebitelSdkIos.PushTokenType : Swift.Equatable {}
 extension WebitelSdkIos.PushTokenType : Swift.Hashable {}
 extension WebitelSdkIos.LogLevel : Swift.Equatable {}

@@ -1,0 +1,36 @@
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
+
+# Xcode
+DerivedData/
+.idea/
+*.hmap
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+
+# Ignore user-specific files in .xcodeproj, keep shared data
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+
+# Ignore xcworkspace but keep shared contents
+*.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
+
+# Build artifacts
+build/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Injection for Xcode
+iOSInjectionProject/
+
+# test/demo apps
+mobile-ios-sdkTests/
+mobile-demo-app-ios/
