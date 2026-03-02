@@ -18,27 +18,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IMYyhqYxfg3EWqmP90a13ghnBPI=
+		jX8U6Wd2732pOwCLAy4eLgvNsFg=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Wb2JUuUmUSm8//jOzZ12LRPFOD4=
+		yps2fF8lpNgHIN9xPjgjNlZYvHc=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		qr+2HYOQ5H7yiWZEVAlXwTsnYoU=
+		U07Le9oKXtI6gCdQtaYA91iWB4E=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		wDcFFA63/Ddi5Zd5DVLLin4yozM=
+		Qoq+Azu8ijVau8xm4+Ze/MHQMj0=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		qr+2HYOQ5H7yiWZEVAlXwTsnYoU=
+		U07Le9oKXtI6gCdQtaYA91iWB4E=
 		</data>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		PxVoXyedsBQeMF1BSvX0cTKBrJo=
+		mzVvyz9VPyoiZ4vPgum+Nj+Xl5M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -80,35 +80,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4w7jDgY6NMChwhpDmcswAVXNrMIkWTyNAhP0rVTWnJ8=
+			Vijw+3FstLIQuIW6owJUZlccbnFVxoDxWD8Sj7qYsj4=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1eCzrq2L20uBDXoCC6MSjdKa1dQhXnPK9B/OU1Q31PY=
+			SfmQr8SDPv/DMaNYCYIV/V1582QUNRQzF4Ftnbxe0Jg=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VQp36cJ1MpcGwQEnv1ixiPX18dCunSOC78VNvcxKHWQ=
+			In6T5p4qw4auUXNGWYIvZxEh37hJf65SFWVUbtwChSo=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1eCzrq2L20uBDXoCC6MSjdKa1dQhXnPK9B/OU1Q31PY=
+			SfmQr8SDPv/DMaNYCYIV/V1582QUNRQzF4Ftnbxe0Jg=
 			</data>
 		</dict>
 		<key>Modules/WebitelSdkIos.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tXkoOEowDmstOSaJ3hJThOf0yPgHqbLAE/M2+J50H/w=
+			0myXjMx+fo4mu/ZLRnw+DwpFt0iAcmO5xz0yWHAoQpk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

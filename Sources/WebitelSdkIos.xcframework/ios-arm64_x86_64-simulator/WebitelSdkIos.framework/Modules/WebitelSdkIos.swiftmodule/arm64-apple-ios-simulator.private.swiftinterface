@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WebitelSdkIos
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import CryptoKit
 import Foundation
 import Swift
 import UIKit
@@ -264,6 +265,7 @@ public protocol PortalClient {
   #if compiler(>=5.3) && $NonescapableTypes
   func registerDevice(pushToken: Swift.String, pushTokenType: WebitelSdkIos.PushTokenType, completion: @escaping (Swift.Result<Swift.Void, Foundation.NSError>) -> Swift.Void)
   #endif
+  func setPinnedPublicKeys(_ pins: [Swift.String])
   func setAccessToken(token: Swift.String)
   #if compiler(>=5.3) && $NonescapableTypes
   func setAccessToken(token: Swift.String, completion: @escaping (Swift.Result<Swift.Void, Foundation.NSError>) -> Swift.Void)
@@ -281,6 +283,7 @@ public class PortalClientBuilder {
   public func setDeviceId(_ value: Swift.String) -> Self
   public func logLevel(_ value: WebitelSdkIos.LogLevel) -> Self
   public func setLogHandler(_ value: any WebitelSdkIos.LogEventHandler) -> Self
+  public func setPinnedPublicKeys(_ pins: [Swift.String]) -> Self
   public func setKeepAlive(interval: Swift.Int64, timeout: Swift.Int64) -> Self
   public func setRequestOptions(options: WebitelSdkIos.RequestOptions) -> Self
   public func useWebSocket() -> Self

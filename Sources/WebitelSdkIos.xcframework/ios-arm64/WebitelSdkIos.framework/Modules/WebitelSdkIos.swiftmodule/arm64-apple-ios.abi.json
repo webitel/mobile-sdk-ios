@@ -3129,6 +3129,23 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebitelSdkIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "ConnectState",
         "printedName": "ConnectState",
@@ -8125,6 +8142,44 @@
           },
           {
             "kind": "Function",
+            "name": "setPinnedPublicKeys",
+            "printedName": "setPinnedPublicKeys(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos12PortalClientP19setPinnedPublicKeysyySaySSGF",
+            "mangledName": "$s13WebitelSdkIos12PortalClientP19setPinnedPublicKeysyySaySSGF",
+            "moduleName": "WebitelSdkIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : WebitelSdkIos.PortalClient>",
+            "sugared_genericSig": "<Self where Self : WebitelSdkIos.PortalClient>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setAccessToken",
             "printedName": "setAccessToken(token:)",
             "children": [
@@ -8557,6 +8612,41 @@
             "declKind": "Func",
             "usr": "s:13WebitelSdkIos19PortalClientBuilderC13setLogHandleryACXDAA0h5EventI0_pF",
             "mangledName": "$s13WebitelSdkIos19PortalClientBuilderC13setLogHandleryACXDAA0h5EventI0_pF",
+            "moduleName": "WebitelSdkIos",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPinnedPublicKeys",
+            "printedName": "setPinnedPublicKeys(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13WebitelSdkIos19PortalClientBuilderC19setPinnedPublicKeysyACXDSaySSGF",
+            "mangledName": "$s13WebitelSdkIos19PortalClientBuilderC19setPinnedPublicKeysyACXDSaySSGF",
             "moduleName": "WebitelSdkIos",
             "declAttributes": [
               "AccessControl",
@@ -12091,126 +12181,154 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 2148,
+      "offset": 2146,
       "length": 15,
       "value": "\"WebitelSdkIos\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 2179,
+      "offset": 2177,
+      "length": 3,
+      "value": "495"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2241,
+      "length": 32,
+      "value": "\"SSL pinning validation failed.\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2343,
+      "length": 15,
+      "value": "\"WebitelSdkIos\""
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2374,
       "length": 3,
       "value": "408"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 2243,
+      "offset": 2438,
       "length": 24,
       "value": "\"The request timed out.\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 2281,
+      "offset": 2476,
       "length": 17,
       "value": "\"isCustomTimeout\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "BooleanLiteral",
-      "offset": 2300,
+      "offset": 2495,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3381,
+      "offset": 3576,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3484,
+      "offset": 3679,
       "length": 3,
       "value": "499"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3564,
+      "offset": 3759,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3646,
+      "offset": 3841,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3748,
+      "offset": 3943,
       "length": 3,
       "value": "504"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3849,
+      "offset": 4044,
       "length": 3,
       "value": "404"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3974,
+      "offset": 4169,
       "length": 3,
       "value": "409"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 4085,
+      "offset": 4280,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 4205,
+      "offset": 4400,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 4361,
+      "offset": 4556,
       "length": 3,
       "value": "429"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 4483,
+      "offset": 4592,
+      "length": 3,
+      "value": "495"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4714,
       "length": 3,
       "value": "501"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 4751,
+      "offset": 4982,
       "length": 3,
       "value": "503"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/common\/ErrorBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 4783,
+      "offset": 5014,
       "length": 2,
       "value": "-1"
     },
@@ -12393,6 +12511,13 @@
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/chat\/FileTransferQueue.swift",
       "kind": "Array",
       "offset": 274,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/grpc\/ChannelConfig.swift",
+      "kind": "Array",
+      "offset": 660,
       "length": 2,
       "value": "[]"
     },
@@ -13848,35 +13973,35 @@
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/WebSocketClient.swift",
       "kind": "StringLiteral",
-      "offset": 977,
+      "offset": 1059,
       "length": 12,
       "value": "\"\/portal\/ws\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/WebSocketClient.swift",
       "kind": "StringLiteral",
-      "offset": 1019,
+      "offset": 1101,
       "length": 19,
       "value": "\"\/api\/portal\/token\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/WebSocketClient.swift",
       "kind": "StringLiteral",
-      "offset": 1069,
+      "offset": 1151,
       "length": 20,
       "value": "\"\/api\/portal\/logout\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/WebSocketClient.swift",
       "kind": "StringLiteral",
-      "offset": 1127,
+      "offset": 1209,
       "length": 20,
       "value": "\"\/api\/portal\/device\""
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/data\/wss\/WebSocketClient.swift",
       "kind": "StringLiteral",
-      "offset": 1209,
+      "offset": 1291,
       "length": 34,
       "value": "\"com.webitel.wss.syncConnectQueue\""
     },
@@ -17561,6 +17686,13 @@
       "offset": 585,
       "length": 2,
       "value": "15"
+    },
+    {
+      "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/domain\/PortalClientBuilder.swift",
+      "kind": "Array",
+      "offset": 725,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/yuriizhuk\/Developer\/ios\/WebitelSdkIos\/WebitelSdkIos\/domain\/User.swift",
